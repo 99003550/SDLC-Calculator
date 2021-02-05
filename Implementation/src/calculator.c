@@ -28,3 +28,14 @@ float cos(float num1)
 {
     return cos(num1);
 }
+float tan(float num1)
+{
+    if(num1==pi/2)
+    {
+        return -1;
+    }
+    else
+    {
+        return tan(num1);
+    }
+}
