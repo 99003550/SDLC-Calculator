@@ -9,5 +9,5 @@
 
 float multiply(float num1,float num2);
 float divide(float num1,float num2);
-
+float logarithemicvalue(float num1);
 #endif
