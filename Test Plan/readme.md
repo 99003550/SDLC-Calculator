@@ -19,7 +19,7 @@
 | TP17 | To find cosine of a number                                          | Cos(90)             | 0               |
 | TP18 | To find tangent of a number                                         | Tan(45)             | 1               |
 
-**NORMAL TEST CASES IN CALCULATOR**
+**NORMAL TEST PLANS IN CALCULATOR**
 
 1. Check if the calculator is a normal calculator or a scientific calculator.
 2. Verify that all the buttons are present and text written on them is readable.
