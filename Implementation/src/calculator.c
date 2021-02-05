@@ -13,12 +13,12 @@ int sub(int num1,int num2)
     return num1-num2;
 }
 
-float square(int num1)
+float square(float num1)
 {
     return (num1*num1);
 }
 
-float cube(int num1)
+float cube(float num1)
 {
     float result;
     result=pow(num1,3);
