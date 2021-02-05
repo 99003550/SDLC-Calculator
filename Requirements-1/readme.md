@@ -67,6 +67,7 @@ UML Activity Diagram for bitwise or:
 | Here we cannot develop a graph for the function. | Graphs can be developed for the functions performed. |
 | It is cost effective. | It is expensive comparatively. |
 
+<<<<<<< HEAD
 **SWOT ANALYSIS**
 
 | STRENGHTS
@@ -91,3 +92,66 @@ UML Activity Diagram for bitwise or:
 - Increase in number of competators
 
  |
+=======
+**WWWWH**
+
+WHY:
+
+A machine is anything that reduces human effort. We use calculators so that we can find out answers to mathematical problems without using too much of our energy and time and also reducing our effort.
+
+WHAT:
+
+A calculator is a machine which allows people to do math operations more easily. For example, a normal calculator will add, subtract, multiply, and divide. Even our computer is a calculator. There are two types of electronic calculators, the simple one, with only the main functions of plus, minus, times and division, and sometimes a square root, and the scientific one, with many other functions too such as factorials, and cosine functions.
+
+WHERE:
+
+The calculator is used everywhere. Basically it can be used in accounts where there will large mathematical operations.
+
+WHEN:
+
+The calculator can be used whenever we want to perform any large arithmetic operation.
+
+HOW:
+
+The main objective of the calculator is to perform the different types of operation efficiently without wasting of time in this busy world.
+**Project name: - Scientific Calculator**
+
+**Requirement Analysis**
+
+- **High Level Requirements**
+  - Any calculator needs to have the highest speed and accuracy.
+  - The system should be multifunctional.
+  - The System should be user friendly and compact.
+  - The smart calculator&#39;s battery lifetime should be more.
+  - The precision value should be high.
+
+- **Low Level Requirements**
+
+- The speed of the calculator, it should give output within seconds.
+- The system functions need to be specified and work properly.
+- The precision of the calculator should be more.
+- The functions taking take input and process the output within nanoseconds.
+
+**Requirement Mapping-**
+
+**High level**  **requirements-**
+
+| **ID** | **Description** |
+| --- | --- |
+| 1 | Special functions like factorial,exponential,power must be included in the calculator. |
+| 2 | Trigonometric functions like sine,cos,tan must be included to carry out trigonometric operations. |
+| 3 | Binary operators like bitwise and,or,xor for processing the binary operations. |
+| 4 | Square root, cube root, power functions to carry out complex calculations. |
+| 5 | Precision should be high and speed should be in picoseconds |
+| 7 | The functions should be selected and should produce correct output. |
+
+**Low level requirements-**
+
+| **ID** | **Description** |
+| --- | --- |
+| 1 | Symbols like +,-,\*,/ to carry out simple addition, substraction,multiplication and division to operations. |
+| 2 | Must accept numbers from 0 to 9. |
+| 3 | Calculator must be included with different calculation switching modes. |
+
+**Table : High and Low Level Requirements.**
+>>>>>>> bd6094ec61c40abb0d4b4fde84240d472b5d328d
