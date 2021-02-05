@@ -11,6 +11,9 @@ float add(float num1,float num2);
 float sub(float num1,float num2);
 float multiply(float num1,float num2);
 float divide(float num1,float num2);
+float square(float num1);
+float cube(float num1);
+
 float sin(float num1);
 float cos(float num1);
 float tan(float num1);
