@@ -2,16 +2,6 @@
 #include<math.h>
 #define pi 3.14
 
-
-
-
-
-
-float multiply(float num1, float num2)
-
-float multiply(float num1, float num2)
-
-
 float add(float num1,float num2)
 {
     return num1+num2;
@@ -75,9 +65,13 @@ int logarithemicvalue(float num1)
 
 float log_base10(float num1)
 {
-    return num1*num1;
+    return log10(num1);
 }
-
+ 
+ float fabsolute(float num1)
+ {
+     return fabs(num1);
+ }
 
 
 int bitwise_or(int num1, int num2)
