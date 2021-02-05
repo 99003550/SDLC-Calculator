@@ -18,6 +18,7 @@
 | 3 | Calculator must be included with different calculation switching modes. |
 
 ![alt text](https://github.com/99003550/SDLC-Calculator/blob/main/Design/High%20Level%20Design/Behavioral.png)
+![alt text](https://github.com/99003550/SDLC-Calculator/blob/main/Design/High%20Level%20Design/Structural%20Design.png/uml.png)
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwiseand/bitwiseand.PNG)
 
@@ -49,7 +50,6 @@ cos uml
 
 sin uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/sin%20operation/sin%20function.png)
-![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/sin%20operation/sinfunction.png)
 
 cube uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/square%20and%20cube/cube.jpg)
