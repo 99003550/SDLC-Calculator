@@ -270,18 +270,32 @@ Low level requirements-
 ![](RackMultipart20210205-4-127mc1d_html_90f92892641eac27.png)
 
 **Bitwise And flow chart:**
+x-special/nautilus-clipboard
+copy
+file:///home/ltts/Desktop/bitwiseand.PNG
+
 
 ![](RackMultipart20210205-4-127mc1d_html_13f3b976dd53212.png)
 
 **UML Activity Diagram for Bitwise And:**
+x-special/nautilus-clipboard
+copy
+file:///home/ltts/Desktop/bitwise%20and%20uml.PNG
+
 
 ![](RackMultipart20210205-4-127mc1d_html_4b593c329bd3ee8d.png)
 
 **Bitwise Or Flowchart:**
+x-special/nautilus-clipboard
+copy
+file:///home/ltts/Desktop/bitwiseor.PNG
 
 ![](RackMultipart20210205-4-127mc1d_html_c8095671a0ea82b1.png)
 
 **UML Activity Diagram for Bitwise Or:**
+x-special/nautilus-clipboard
+copy
+file:///home/ltts/Desktop/bitwiseor%20uml.PNG
 
 ![](RackMultipart20210205-4-127mc1d_html_a1d17d99a2b574bb.png)
 
