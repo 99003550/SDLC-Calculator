@@ -66,3 +66,28 @@ UML Activity Diagram for bitwise or:
 | It has smaller sized screen only. | It has both smaller sized and larger sized screen. |
 | Here we cannot develop a graph for the function. | Graphs can be developed for the functions performed. |
 | It is cost effective. | It is expensive comparatively. |
+
+**SWOT ANALYSIS**
+
+| STRENGHTS
+
+- User friendly
+- Effciency
+
+
+ | WEAKNESS
+
+- Does not have more functions
+ |
+| --- | --- |
+| OPPORTUNITIES
+
+- Increased requirement in market place
+- Adaptation to develop the costumer rqeuirements
+
+
+ | THREATS
+
+- Increase in number of competators
+
+ |
