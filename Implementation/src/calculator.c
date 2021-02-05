@@ -107,3 +107,16 @@ double exponential( double num1)
 {
     return exp(num1);
 }
+
+
+float power(float num1, float num2)
+{
+    if(num2==0)
+    {
+        return 1;
+    }
+    else
+        {
+       return pow(num1, num2);
+    }
+}
