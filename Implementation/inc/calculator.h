@@ -9,5 +9,7 @@
 
 float multiply(float num1,float num2);
 float divide(float num1,float num2);
-
+float sin(float num1);
+float cos(float num1);
+float tan(float num1);
 #endif
