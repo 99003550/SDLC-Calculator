@@ -24,8 +24,12 @@ int bitwise_or(int num1, int num2);
 int bitwise_and(int num1, int num2);
 float Xor(float num1 float num2);
 float logarithemicvalue(float num1);
+
+double exponential(double num1);
+
 float log_base10(float num1);
 float fabsolute(float num1);
+
 
 
 
