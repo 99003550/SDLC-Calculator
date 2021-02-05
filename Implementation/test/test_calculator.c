@@ -27,6 +27,8 @@ void test_power(void);
 
 
 void test_exponential(void);
+void test_add(void);
+void test_sub(void);
 
 
 /* Start of the application test */
@@ -71,6 +73,8 @@ int main() {
 
   
   CU_add_test(suite, "exponential", test_exponential);
+  CU_add_test(suite, "add", test_add);
+  CU_add_test(suite, "sub", test_sub);
 
 
 /* Note: Do not edit START*/
@@ -182,6 +186,13 @@ void test_power(void)
 {
   CU_ASSERT(1== pow(2,0));
 }
-
+void test_add(void){
+    CU_ASSERT(1 == add(1,0));
+    CU_ASSERT(7 == add(2,5));
+}
+void test_sub(void){
+    CU_ASSERT(1 == sub(1,0));
+    CU_ASSERT(3 == sub(5,2));
+}
 
     
