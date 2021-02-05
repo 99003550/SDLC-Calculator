@@ -14,6 +14,7 @@ float divide(float num1,float num2);
 float sin(float num1);
 float cos(float num1);
 float tan(float num1);
+float factorial(float num1);
 
 int bitwise_or(int num1, int num2);
 int bitwise_and(int num1, int num2);
