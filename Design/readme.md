@@ -91,3 +91,7 @@ Factorial
 Factorial uml
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/factorial/FACTORIAL1%20.png)
+
+Power
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/power/power.png)
