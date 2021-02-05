@@ -154,4 +154,30 @@ The main objective of the calculator is to perform the different types of operat
 | 3 | Calculator must be included with different calculation switching modes. |
 
 **Table : High and Low Level Requirements.**
->>>>>>> bd6094ec61c40abb0d4b4fde84240d472b5d328d
+ABSTRACT
+
+The advanced scientific calculator performs various operations ranging from calculating the sum, difference, product, division,bitwise Or, bitwise and, xor of two numbers to calculating the factorial, power ,square ,cube
+
+,sine,cosine,tan,abs,exponent and logarithm of a given number.
+
+REQUIREMENTS
+
+SOFTWARE REQUIREMENTS
+
+● Ubuntu 20.04
+
+● Github desktop
+
+● Visual studio code
+
+FUNCTIONAL REQUIREMENTS
+
+- ADD() &amp; SUB(): These functions are used for adding and subtracting of the given numbers.
+
+- MUL() &amp; DIV(): These functions are used for multiplication and division of the given numbers.
+
+- LOG() ,LOG\_BASE10(): These functions are used to calculate logarithm of a given number which uses the standard library math.h.
+
+- POW(),ABS():These functions are used to calculate power and absolute of a given number which uses the standard library math.h.
+
+- SIN(),COS(),TAN():These functions are used to calculate trigonometric function of a given number which uses the standard library math.h.
