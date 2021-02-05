@@ -10,9 +10,18 @@ void test_multiply(void);
 void test_divide(void);
 void test_bitwise_or(void);
 void test_bitwise_and(void);
+
+void test_Xor(void);
+void test_logarithemicvalue(void);
+
+
+void test_log_base10(void);
+void test_fabsolute(void);
+
 void test_sin(void);
 void test_cos(void);
 void test_tan(void);
+
 
 /* Start of the application test */
 int main() {
@@ -30,6 +39,9 @@ int main() {
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "bitwise_or", test_bitwise_or);
   CU_add_test(suite, "bitwise_and", test_bitwise_and);
+
+  CU_add_test(suite, "log_base10", test_log_base10);
+  CU_add_test(suite, "fabsolute", test_fabsolute);
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "sin", test_sin);
@@ -37,9 +49,19 @@ int main() {
   CU_add_test(suite, "tan", test_tan);
 
 
+  cu_add_test(suite, "xor",test_Xor);
+  cu_add_test(suite,"logarithemicvalue",test_logarithemicvalue);
+  
+
+
+  CU_add_test(suite, "multiply", test_multiply);
+  CU_add_test(suite, "divide", test_divide);
+  
+
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
   CU_basic_set_mode(CU_BRM_VERBOSE);
+
 
   /* run the unit test framework*/
   CU_basic_run_tests();
@@ -70,6 +92,24 @@ void test_bitwise_and(void) {
   CU_ASSERT(0 == bitwise_and(1, 0));
 
 }
+
+
+void test_xor(void){
+  CU_ASSERT(1 == Xor(1,0));
+}
+void test_logarithemicvalue(void){
+  CU_ASSERT(1.609 == logarithemicvalue(5));
+
+void test_log_base10(void)
+{
+ CU_ASSERT(0.69 == log_base10(5)); 
+}
+void test_fabsolute(void)
+{
+ CU_ASSERT(1.5 == fabsolute(-1.5)); 
+
+}
+
 void test_sin(void)
 {
   CU_ASSERT(0 == sin(0));
