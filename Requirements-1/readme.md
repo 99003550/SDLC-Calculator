@@ -154,21 +154,22 @@ The main objective of the calculator is to perform the different types of operat
 | 3 | Calculator must be included with different calculation switching modes. |
 
 **Table : High and Low Level Requirements.**
+
+
 ABSTRACT
 
-The advanced scientific calculator performs various operations ranging from calculating the sum, difference, product, division,bitwise Or, bitwise and, xor of two numbers to calculating the factorial, power ,square ,cube
+The advanced scientific calculator performs various operations ranging from calculating the sum, difference, product, division,bitwise Or, bitwise and, xor of two numbers to calculating the factorial, power ,square ,cube,sine,cosine,tan,abs,exponent and logarithm of a given number.
 
-,sine,cosine,tan,abs,exponent and logarithm of a given number.
 
 REQUIREMENTS
 
 SOFTWARE REQUIREMENTS
-
 ● Ubuntu 20.04
 
 ● Github desktop
 
 ● Visual studio code
+
 
 FUNCTIONAL REQUIREMENTS
 
