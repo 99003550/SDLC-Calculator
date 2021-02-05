@@ -44,3 +44,6 @@ cos uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/cos%20operation/cos%20uml.png)
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/cos%20operation/cos%20function.png)
+
+sin uml
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/sin%20operation/sin%20function.png)
