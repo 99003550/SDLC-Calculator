@@ -83,3 +83,7 @@ Absolute
 Absolute uml
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/absolute/Abs%20uml.png)
+
+Factorial
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/factorial/FACTORIAL.png)
