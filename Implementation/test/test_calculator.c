@@ -23,6 +23,8 @@ void test_fabsolute(void);
 void test_sin(void);
 void test_cos(void);
 void test_tan(void);
+void test_factorial(void);
+void test_power(void);
 
 
 /* Start of the application test */
@@ -60,6 +62,9 @@ int main() {
 
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
+  CU_add_test(suite, "factorial", test_factorial);
+  CU_add_test(suite, "power", test_power);
+  
   
 
 /* Note: Do not edit START*/
@@ -136,7 +141,14 @@ void test_tan(void)
   CU_ASSERT(1 == tan(45));
 }
 
+void test_factorial(void)
+{
+  CU_ASSERT(6 == factorial(3));
+}
 
-
+void test_power(void) 
+{
+  CU_ASSERT(1== pow(2,0));
+}
 
     
