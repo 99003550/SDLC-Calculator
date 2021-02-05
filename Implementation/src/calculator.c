@@ -11,3 +11,11 @@ int bitwise_and(int num1, int num2)
 {
     return num1&num2;
 }
+float log_base10(float num1)
+{
+    return log10(num1);
+}
+float fabsolute(float num1)
+{
+    return fabs(num1);
+}
