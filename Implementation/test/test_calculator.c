@@ -6,11 +6,15 @@
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
-
+void test_multiply(void);
+void test_divide(void);
 void test_bitwise_or(void);
 void test_bitwise_and(void);
 void test_log_base10(void);
 void test_fabsolute(void);
+void test_sin(void);
+void test_cos(void);
+void test_tan(void);
 
 
 /* Start of the application test */
@@ -25,11 +29,18 @@ int main() {
 
   /* Add your test functions in this format for testing*/
   
+  CU_add_test(suite, "multiply", test_multiply);
+  CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "bitwise_or", test_bitwise_or);
   CU_add_test(suite, "bitwise_and", test_bitwise_and);
   CU_add_test(suite, "log_base10", test_log_base10);
   CU_add_test(suite, "fabsolute", test_fabsolute);
-  
+  CU_add_test(suite, "multiply", test_multiply);
+  CU_add_test(suite, "divide", test_divide);
+  CU_add_test(suite, "sin", test_sin);
+  CU_add_test(suite, "cos", test_cos);
+  CU_add_test(suite, "tan", test_tan);
+
 
 
 /* Note: Do not edit START*/
@@ -48,8 +59,14 @@ int main() {
 /* Write all the test functions */
 
 
-
-
+void test_multiply(void){
+    CU_ASSERT(0 == multiply(1,0));
+    CU_ASSERT(2 == multiply(2,5));
+}
+void test_divide(void){
+    CU_ASSERT(0 == divide(1,0));
+    CU_ASSERT(3 == divide(2,2));
+}
 
 void test_bitwise_or(void) {
   CU_ASSERT(1 == bitwise_or(1, 0));
@@ -59,6 +76,7 @@ void test_bitwise_and(void) {
   CU_ASSERT(0 == bitwise_and(1, 0));
 
 }
+
 void test_log_base10(void)
 {
  CU_ASSERT(0.69 == log_base10(5)); 
@@ -67,6 +85,20 @@ void test_fabsolute(void)
 {
  CU_ASSERT(1.5 == fabsolute(-1.5)); 
 }
+
+void test_sin(void)
+{
+  CU_ASSERT(0 == sin(0));
+}
+void test_cos(void)
+{ 
+  CU_ASSERT(1 == cos(0));
+}
+void test_tan(void)
+{
+  CU_ASSERT(1 == tan(45));
+}
+
 
 
     
