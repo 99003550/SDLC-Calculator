@@ -6,6 +6,11 @@
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
+
+void test_square(void);
+void test_cube(void);
+void test_add(void);
+void test_sub(void);
 void test_multiply(void);
 void test_divide(void);
 void test_bitwise_or(void);
@@ -22,7 +27,14 @@ int main() {
 
 
   /* Add your test functions in this format for testing*/
+
+  CU_add_test(suite, "square", test_square);
+  CU_add_test(suite, "cube", test_cube);
+
   
+  CU_add_test(suite, "add", test_add);
+  CU_add_test(suite, "sub", test_sub);
+
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "bitwise_or", test_bitwise_or);
@@ -47,6 +59,15 @@ int main() {
 /* Write all the test functions */
 
 
+void test_add(void){
+    CU_ASSERT(0 == add(1,0));
+    CU_ASSERT(2 == add(2,5));
+}
+void test_sub(void){
+    CU_ASSERT(0 == sub(1,0));
+    CU_ASSERT(2 == sub(2,5));
+}
+
 void test_multiply(void){
     CU_ASSERT(0 == multiply(1,0));
     CU_ASSERT(2 == multiply(2,5));
@@ -55,7 +76,12 @@ void test_divide(void){
     CU_ASSERT(0 == divide(1,0));
     CU_ASSERT(3 == divide(2,2));
 }
-
+void test_cube(void){
+    CU_ASSERT(125 == cube(5));
+}
+void test_square(void){
+    CU_ASSERT(4 == square(2));
+}
 void test_bitwise_or(void) {
   CU_ASSERT(1 == bitwise_or(1, 0));
 
