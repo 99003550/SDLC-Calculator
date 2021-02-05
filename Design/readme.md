@@ -63,6 +63,8 @@ tan uml
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/tan%20operation/tanuml.png)
 
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/tan%20operation/tan%20function.png)
+
 square uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/square%20and%20cube/square.jpg)
 
