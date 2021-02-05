@@ -9,7 +9,8 @@
 
 void test_bitwise_or(void);
 void test_bitwise_and(void);
-
+void test_Xor(void);
+void test_logarithemicvalue(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -24,6 +25,8 @@ int main() {
   
   CU_add_test(suite, "bitwise_or", test_bitwise_or);
   CU_add_test(suite, "bitwise_and", test_bitwise_and);
+  cu_add_test(suite, "xor",test_Xor);
+  cu_add_test(suite,"logarithemicvalue",test_logarithemicvalue);
   
 
 
@@ -54,7 +57,12 @@ void test_bitwise_and(void) {
   CU_ASSERT(0 == bitwise_and(1, 0));
 
 }
-
+void test_xor(void){
+  CU_ASSERT(1 == Xor(1,0));
+}
+void test_logarithemicvalue(void){
+  CU_ASSERT(1.609 == logarithemicvalue(5));
+}
 
 
 
