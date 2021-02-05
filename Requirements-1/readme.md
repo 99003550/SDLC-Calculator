@@ -66,3 +66,25 @@ UML Activity Diagram for bitwise or:
 | It has smaller sized screen only. | It has both smaller sized and larger sized screen. |
 | Here we cannot develop a graph for the function. | Graphs can be developed for the functions performed. |
 | It is cost effective. | It is expensive comparatively. |
+
+**WWWWH**
+
+WHY:
+
+A machine is anything that reduces human effort. We use calculators so that we can find out answers to mathematical problems without using too much of our energy and time and also reducing our effort.
+
+WHAT:
+
+A calculator is a machine which allows people to do math operations more easily. For example, a normal calculator will add, subtract, multiply, and divide. Even our computer is a calculator. There are two types of electronic calculators, the simple one, with only the main functions of plus, minus, times and division, and sometimes a square root, and the scientific one, with many other functions too such as factorials, and cosine functions.
+
+WHERE:
+
+The calculator is used everywhere. Basically it can be used in accounts where there will large mathematical operations.
+
+WHEN:
+
+The calculator can be used whenever we want to perform any large arithmetic operation.
+
+HOW:
+
+The main objective of the calculator is to perform the different types of operation efficiently without wasting of time in this busy world.
