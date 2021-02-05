@@ -67,6 +67,32 @@ UML Activity Diagram for bitwise or:
 | Here we cannot develop a graph for the function. | Graphs can be developed for the functions performed. |
 | It is cost effective. | It is expensive comparatively. |
 
+
+**SWOT ANALYSIS**
+
+| STRENGHTS
+
+- User friendly
+- Effciency
+
+
+ | WEAKNESS
+
+- Does not have more functions
+ |
+| --- | --- |
+| OPPORTUNITIES
+
+- Increased requirement in market place
+- Adaptation to develop the costumer rqeuirements
+
+
+ | THREATS
+
+- Increase in number of competators
+
+ |
+=======
 **WWWWH**
 
 WHY:
@@ -128,3 +154,30 @@ The main objective of the calculator is to perform the different types of operat
 | 3 | Calculator must be included with different calculation switching modes. |
 
 **Table : High and Low Level Requirements.**
+ABSTRACT
+
+The advanced scientific calculator performs various operations ranging from calculating the sum, difference, product, division,bitwise Or, bitwise and, xor of two numbers to calculating the factorial, power ,square ,cube
+
+,sine,cosine,tan,abs,exponent and logarithm of a given number.
+
+REQUIREMENTS
+
+SOFTWARE REQUIREMENTS
+
+● Ubuntu 20.04
+
+● Github desktop
+
+● Visual studio code
+
+FUNCTIONAL REQUIREMENTS
+
+- ADD() &amp; SUB(): These functions are used for adding and subtracting of the given numbers.
+
+- MUL() &amp; DIV(): These functions are used for multiplication and division of the given numbers.
+
+- LOG() ,LOG\_BASE10(): These functions are used to calculate logarithm of a given number which uses the standard library math.h.
+
+- POW(),ABS():These functions are used to calculate power and absolute of a given number which uses the standard library math.h.
+
+- SIN(),COS(),TAN():These functions are used to calculate trigonometric function of a given number which uses the standard library math.h.
