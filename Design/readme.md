@@ -33,6 +33,10 @@ Bitwise and uml
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwiseand/bitwise%20and%20uml.PNG)
 
+Exponential
+![alt text](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Exponential/exp%20beh.png)
+
+
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/tan%20operation/tan%20function.png)
 
 
