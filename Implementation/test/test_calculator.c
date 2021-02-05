@@ -21,7 +21,13 @@ void test_fabsolute(void);
 void test_sin(void);
 void test_cos(void);
 void test_tan(void);
+
+void test_factorial(void);
+void test_power(void);
+
+
 void test_exponential(void);
+
 
 /* Start of the application test */
 int main() {
@@ -56,8 +62,16 @@ int main() {
 
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
+
+  CU_add_test(suite, "factorial", test_factorial);
+  CU_add_test(suite, "power", test_power);
+  
+  
+
+
   
   CU_add_test(suite, "exponential", test_exponential);
+
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -129,6 +143,45 @@ void test_exponential(void)
    CU_ASSERT(8.166170 == exponential(2.100000));
 }
 
+
+void test_xor(void){
+  CU_ASSERT(1 == Xor(1,0));
+}
+void test_logarithemicvalue(void){
+  CU_ASSERT(1.609 == logarithemicvalue(5));
+
+void test_log_base10(void)
+{
+ CU_ASSERT(0.69 == log_base10(5)); 
+}
+void test_fabsolute(void)
+{
+ CU_ASSERT(1.5 == fabsolute(-1.5)); 
+
+}
+
+void test_sin(void)
+{
+  CU_ASSERT(0 == sin(0));
+}
+void test_cos(void)
+{ 
+  CU_ASSERT(1 == cos(0));
+}
+void test_tan(void)
+{
+  CU_ASSERT(1 == tan(45));
+}
+
+void test_factorial(void)
+{
+  CU_ASSERT(6 == factorial(3));
+}
+
+void test_power(void) 
+{
+  CU_ASSERT(1== pow(2,0));
+}
 
 
     
