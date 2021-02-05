@@ -49,6 +49,7 @@ cos uml
 
 sin uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/sin%20operation/sin%20function.png)
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/sin%20operation/sinfunction.png)
 
 cube uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/square%20and%20cube/cube.jpg)
