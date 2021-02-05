@@ -97,7 +97,9 @@ Power
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/power/power.png)
 
-Exponential 
+Exponential uml diagram
 
 ![alt text](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Exponential/exp%20beh.png)
 
+Exponential usecase diagram
+![alt text](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Exponential/exp.png)
