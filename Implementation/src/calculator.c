@@ -4,12 +4,13 @@
 
 
 
-int add(int num1,int num2)
+float add(float num1,float num2)
+
 {
     return num1+num2;
 }
 
-int sub(int num1,int num2)
+float sub(float num1,float num2)
 {
     return num1-num2;
 }
@@ -96,14 +97,8 @@ float factorial(float num1)
 }
 
 
-int bitwise_or(int num1, int num2)
 
+double exponential( double num1)
 {
-    return num1|num2;
-}
-
-
-int bitwise_and(int num1, int num2)
-{
-    return num1&num2;
+    return exp(num1);
 }
