@@ -38,10 +38,14 @@ float multiply(float num1, float num2)
 
 float divide(float num1, float num2)
 {
+<<<<<<< HEAD
+    if(num2 == 0)
+=======
 
 
     if(num2==0)
 
+>>>>>>> b60dd4226b198745c5654a7bddaefd656aa48593
     {
         return -1;
     }
@@ -49,8 +53,12 @@ float divide(float num1, float num2)
     {
         return num1/num2;
     }
+<<<<<<< HEAD
+    return num1*num2;
+=======
 
     return num1&num2;
+>>>>>>> b60dd4226b198745c5654a7bddaefd656aa48593
 }
 int bitwise_or(int num1, int num2)
 
