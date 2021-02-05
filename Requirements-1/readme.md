@@ -154,7 +154,6 @@ The main objective of the calculator is to perform the different types of operat
 | 3 | Calculator must be included with different calculation switching modes. |
 
 **Table : High and Low Level Requirements.**
->>>>>>> bd6094ec61c40abb0d4b4fde84240d472b5d328d
 ABSTRACT
 
 The advanced scientific calculator performs various operations ranging from calculating the sum, difference, product, division,bitwise Or, bitwise and, xor of two numbers to calculating the factorial, power ,square ,cube
