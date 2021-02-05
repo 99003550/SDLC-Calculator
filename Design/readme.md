@@ -71,3 +71,7 @@ square uml
 log_base10 
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/logbase10/LOG.png)
+
+log_base10 uml
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/logbase10/log10%20uml.png)
