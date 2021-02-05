@@ -70,11 +70,11 @@ void test_sub(void){
 
 void test_multiply(void){
     CU_ASSERT(0 == multiply(1,0));
-    CU_ASSERT(2 == multiply(2,5));
+    CU_ASSERT(10 == multiply(2,5));
 }
 void test_divide(void){
     CU_ASSERT(0 == divide(1,0));
-    CU_ASSERT(3 == divide(2,2));
+    CU_ASSERT(1 == divide(2,2));
 }
 void test_cube(void){
     CU_ASSERT(125 == cube(5));
