@@ -68,3 +68,30 @@ tan uml
 square uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/square%20and%20cube/square.jpg)
 
+Log_base10 
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/logbase10/LOG.png)
+
+Log_base10 uml
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/logbase10/log10%20uml.png)
+
+Absolute
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/absolute/Abs.png)
+
+Absolute uml
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/absolute/Abs%20uml.png)
+
+Factorial
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/factorial/FACTORIAL.png)
+
+Factorial uml
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/factorial/FACTORIAL1%20.png)
+
+Power
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/power/power.png)
