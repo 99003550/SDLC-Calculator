@@ -4,23 +4,17 @@
 
 
 
-
-
-
-float multiply(float num1, float num2)
-
-float multiply(float num1, float num2)
-
-
 float add(float num1,float num2)
 {
     return num1+num2;
 }
 
+
 float sub(float num1,float num2)
 {
     return num1-num2;
 }
+
 
 float square(float num1)
 {
@@ -32,7 +26,6 @@ float cube(float num1)
     float result;
     result=pow(num1,3);
     return result;
-
 }
 
 
@@ -46,6 +39,7 @@ float multiply(float num1, float num2)
 {
     return num1*num2;
 }
+
 
 float divide(float num1, float num2)
 {
@@ -61,7 +55,7 @@ float divide(float num1, float num2)
 }
 
 
-int Xor(int num1, int num2)
+float Xor(int num1, int num2)
 {
     return num1^num2;
 }
