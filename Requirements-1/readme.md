@@ -67,6 +67,32 @@ UML Activity Diagram for bitwise or:
 | Here we cannot develop a graph for the function. | Graphs can be developed for the functions performed. |
 | It is cost effective. | It is expensive comparatively. |
 
+
+**SWOT ANALYSIS**
+
+| STRENGHTS
+
+- User friendly
+- Effciency
+
+
+ | WEAKNESS
+
+- Does not have more functions
+ |
+| --- | --- |
+| OPPORTUNITIES
+
+- Increased requirement in market place
+- Adaptation to develop the costumer rqeuirements
+
+
+ | THREATS
+
+- Increase in number of competators
+
+ |
+=======
 **WWWWH**
 
 WHY:
@@ -128,3 +154,4 @@ The main objective of the calculator is to perform the different types of operat
 | 3 | Calculator must be included with different calculation switching modes. |
 
 **Table : High and Low Level Requirements.**
+>>>>>>> bd6094ec61c40abb0d4b4fde84240d472b5d328d
