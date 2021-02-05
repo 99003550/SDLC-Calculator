@@ -19,9 +19,8 @@
 
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwiseand/bitwiseand.PNG)
 Bitwise and
-![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwiseand/bitwise%20and%20uml.PNG)
-Bitwise and uml
+
+
 !{}(https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwiseand/bitwise%20and%20uml.PNG)
 Bitwise or
-![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwiseand/bitwise%20and%20uml.PNG)
-Bitwise or uml
+
