@@ -58,7 +58,7 @@ int Xor(int num1, int num2)
 }
 
 
-int logarithemicvalue(float num1)
+float logarithemicvalue(float num1)
 {
     return log(num1);
 }
