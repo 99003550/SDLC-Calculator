@@ -68,3 +68,6 @@ tan uml
 square uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/square%20and%20cube/square.jpg)
 
+log_base10 
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/logbase10/LOG.png)
