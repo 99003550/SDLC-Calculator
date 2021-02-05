@@ -3,11 +3,6 @@
 #define pi 3.14
 
 
-
-float multiply(float num1, float num2)
-
-float multiply(float num1, float num2)
-
 int add(int num1,int num2)
 {
     return num1+num2;
@@ -24,6 +19,10 @@ int bitwise_or(int num1, int num2)
 }
 
 
+float multiply(float num1, float num2)
+{
+    return num1*num2;
+}
 float divide(float num1, float num2)
 {
 
