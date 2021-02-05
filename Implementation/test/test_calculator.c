@@ -57,7 +57,7 @@ int main() {
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
   
-  CU_add_test(suite, "exponential", test_exponential)
+  CU_add_test(suite, "exponential", test_exponential);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -126,7 +126,7 @@ void test_tan(void)
 
 void test_exponential(void)
 {
-   CU_ASSERT(8.166170 == exponential(2.100000))
+   CU_ASSERT(8.166170 == exponential(2.100000));
 }
 
 
