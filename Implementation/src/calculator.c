@@ -25,7 +25,7 @@ float multiply(float num1, float num2)
 }
 float divide(float num1, float num2)
 {
-
+    if(num2 == 0)
     {
         return -1;
     }
@@ -33,7 +33,7 @@ float divide(float num1, float num2)
     {
         return num1/num2;
     }
-    return num1&num2;
+    return num1*num2;
 }
 
 
