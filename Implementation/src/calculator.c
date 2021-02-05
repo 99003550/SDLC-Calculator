@@ -14,7 +14,5 @@ int bitwise_and(int num1, int num2)
 
 double exponential( double num1)
 {
-    double res;
-    res=exp(num1);
-    return res;
+    return exp(num1);
 }
