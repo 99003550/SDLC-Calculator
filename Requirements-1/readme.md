@@ -67,7 +67,7 @@ UML Activity Diagram for bitwise or:
 | Here we cannot develop a graph for the function. | Graphs can be developed for the functions performed. |
 | It is cost effective. | It is expensive comparatively. |
 
-<<<<<<< HEAD
+
 **SWOT ANALYSIS**
 
 | STRENGHTS
