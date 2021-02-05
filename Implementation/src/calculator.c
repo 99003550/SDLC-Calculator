@@ -94,10 +94,10 @@ float factorial(float num1)
      return num1*factorial(num1-1);
     }
 }
-double exponential( double num1)
+double exponent(double num1)
 {
 
-    return num1&num2;
+    return exp(num1);
 }
 float sin(float num1)
 {
@@ -117,8 +117,6 @@ float tan(float num1)
     {
         return tan(num1);
     }
-
-    return exp(num1);
 }
 float power(float num1, float num2)
 {
