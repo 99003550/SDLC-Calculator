@@ -1,13 +1,19 @@
-#include "calculator.h"
+#include<calculator.h>
 #include<math.h>
 #define pi 3.14
 
-int bitwise_or(int num1, int num2)
+float multiply(float num1, float num2)
 {
-    return num1|num2;
+    return num1*num2;
 }
-
-int bitwise_and(int num1, int num2)
+float divide(float num1, float num2)
 {
-    return num1&num2;
+    if(num2==0)
+    {
+        return -1;
+    }
+    else
+    {
+        return num1/num2;
+    }
 }
