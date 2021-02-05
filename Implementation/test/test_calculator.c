@@ -6,7 +6,8 @@
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
-
+void test_multiply(void);
+void test_divide(void);
 void test_bitwise_or(void);
 void test_bitwise_and(void);
 
@@ -22,9 +23,12 @@ int main() {
 
   /* Add your test functions in this format for testing*/
   
+  CU_add_test(suite, "multiply", test_multiply);
+  CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "bitwise_or", test_bitwise_or);
   CU_add_test(suite, "bitwise_and", test_bitwise_and);
-  
+  CU_add_test(suite, "multiply", test_multiply);
+  CU_add_test(suite, "divide", test_divide);
 
 
 /* Note: Do not edit START*/
@@ -43,8 +47,14 @@ int main() {
 /* Write all the test functions */
 
 
-
-
+void test_multiply(void){
+    CU_ASSERT(0 == multiply(1,0));
+    CU_ASSERT(2 == multiply(2,5));
+}
+void test_divide(void){
+    CU_ASSERT(0 == divide(1,0));
+    CU_ASSERT(3 == divide(2,2));
+}
 
 void test_bitwise_or(void) {
   CU_ASSERT(1 == bitwise_or(1, 0));
