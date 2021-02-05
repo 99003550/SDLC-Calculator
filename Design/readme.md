@@ -17,13 +17,7 @@
 | 2 | Must accept numbers from 0 to 9. |
 | 3 | Calculator must be included with different calculation switching modes. |
 
-x-special/nautilus-clipboard
+![](x-special/nautilus-clipboard
 copy
-file:///home/ltts/Desktop/bitwiseor.PNG
-file:///home/ltts/Desktop/bitwiseor%20uml.PNG
-
-x-special/nautilus-clipboard
-copy
-file:///home/ltts/Desktop/bitwiseor.PNG
-file:///home/ltts/Desktop/bitwiseor%20uml.PNG
-
+file:///home/ltts/Desktop/bitwiseand.PNG
+)
