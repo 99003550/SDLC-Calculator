@@ -17,6 +17,8 @@
 | 2 | Must accept numbers from 0 to 9. |
 | 3 | Calculator must be included with different calculation switching modes. |
 
+![alt text](https://github.com/99003550/SDLC-Calculator/blob/main/Design/High%20Level%20Design/Behavioral.png)
+
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwiseand/bitwiseand.PNG)
 
 
@@ -46,7 +48,15 @@ cos uml
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/cos%20operation/cos%20function.png)
 
 sin uml
+
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/sin%20operation/sin%20function.png)
 
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/sin%20operation/sinfunction.png)
+
 cube uml
+
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/square%20and%20cube/cube.jpg)
+
+tan uml
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/tan%20operation/tanuml.png)

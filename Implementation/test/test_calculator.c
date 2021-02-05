@@ -27,8 +27,13 @@ void test_power(void);
 
 
 void test_exponential(void);
+
 void test_add(void);
 void test_sub(void);
+
+void test_square(void);
+void test_cube(void);
+
 
 
 /* Start of the application test */
@@ -65,8 +70,13 @@ int main() {
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
 
+  CU_add_test(suite, "square", test_square);
+  CU_add_test(suite, "cube", test_cube);
+
   CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "power", test_power);
+  
+  
   
   
 
@@ -186,6 +196,7 @@ void test_power(void)
 {
   CU_ASSERT(1== pow(2,0));
 }
+
 void test_add(void){
     CU_ASSERT(1 == add(1,0));
     CU_ASSERT(7 == add(2,5));
@@ -194,5 +205,14 @@ void test_sub(void){
     CU_ASSERT(1 == sub(1,0));
     CU_ASSERT(3 == sub(5,2));
 }
+
+void test_cube(void){
+    CU_ASSERT(125 == cube(5));
+}
+void test_square(void){
+    CU_ASSERT(4 == square(2));
+}
+
+
 
     
