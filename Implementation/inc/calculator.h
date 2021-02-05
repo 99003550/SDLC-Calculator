@@ -9,5 +9,6 @@
 
 float multiply(float num1,float num2);
 float divide(float num1,float num2);
-float logarithemicvalue(float num1);
+float logarithmicvalue(float num1);
+float Xor(float num1 float num2);
 #endif
