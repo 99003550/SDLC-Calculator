@@ -3,17 +3,18 @@
 #define pi 3.14
 
 
-
 float add(float num1,float num2)
 
 {
     return num1+num2;
 }
 
+
 float sub(float num1,float num2)
 {
     return num1-num2;
 }
+
 
 float square(float num1)
 {
@@ -25,7 +26,6 @@ float cube(float num1)
     float result;
     result=pow(num1,3);
     return result;
-
 }
 
 
@@ -34,6 +34,7 @@ float multiply(float num1, float num2)
 {
     return num1&num2;
 }
+
 
 float divide(float num1, float num2)
 {
@@ -66,13 +67,13 @@ int bitwise_and(int num1, int num2)
 }
 
 
-int Xor(int num1, int num2)
+float Xor(int num1, int num2)
 {
     return num1^num2;
 }
 
 
-int logarithemicvalue(float num1)
+float logarithemicvalue(float num1)
 {
     return log(num1);
 }
@@ -80,9 +81,13 @@ int logarithemicvalue(float num1)
 
 float log_base10(float num1)
 {
-    return num1*num1;
+    return log10(num1);
 }
-
+ 
+ float fabsolute(float num1)
+ {
+     return fabs(num1);
+ }
 
 float factorial(float num1)
 {
@@ -101,4 +106,17 @@ float factorial(float num1)
 double exponential( double num1)
 {
     return exp(num1);
+}
+
+
+float power(float num1, float num2)
+{
+    if(num2==0)
+    {
+        return 1;
+    }
+    else
+        {
+       return pow(num1, num2);
+    }
 }
