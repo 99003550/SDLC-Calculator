@@ -17,3 +17,5 @@
 | 2 | Must accept numbers from 0 to 9. |
 | 3 | Calculator must be included with different calculation switching modes. |
 
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwiseand/bitwiseand.PNG)
+Bitwise and
