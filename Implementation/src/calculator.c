@@ -53,3 +53,4 @@ float tan(float num1)
     {
         return tan(num1);
     }
+}
