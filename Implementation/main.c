@@ -31,7 +31,7 @@ int main(void)
   p[8] = log_base10;
   p[9] = fabsolute;
   
-  printf("0:square;1:cube;2:sin;3:cos;4:tan;5:factorial;6:logaritham;7:exponent;8:log_base10;9:fabsolute;10:add/n;11:sub;12:multiply;13:divide;14:power;15:bitwise_or;16:bitwise_and;17:xor\n");
+  printf("0:square;1:cube;2:sin;3:cos;4:tan;5:factorial;6:logarithemicvalue;7:exponential;8:log_base10;9:fabsolute;10:add/n;11:sub;12:multiply;13:divide;14:power;15:bitwise_or;16:bitwise_and;17:xor\n");
   do {
     printf("Enter number of operation: ");
     scanf("%d", &op);
