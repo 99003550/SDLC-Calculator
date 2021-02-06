@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <calculator.h>
-
-float (*q[18])(float x);
+float (*p[10])(float x);
+float (*q[18])(float x,float y);
+int (*bit_funcs[20])(float x,float y);
 int main(void)
 {
   float result;
@@ -14,19 +15,19 @@ int main(void)
   q[2] = multiply;
   q[3] = divide;
   q[4] = power;
-  q[5] = bitwise_or;
-  q[6] = bitwise_and;
+  bit_funcs[5] = bitwise_or;
+  bit_funcs[6] = bitwise_and;
   q[7] = Xor;
-  q[8] = square;
-  q[9] = cube;
-  q[10] = sin1;
-  q[11] = cos1;
-  q[12] = tan1;
-  q[13] = factorial;
-  q[14] = logarithemicvalue;
-  q[15] = exponential;
-  q[16] = log_base10;
-  q[17] = fabsolute;
+  p[8] = square;
+  p[9] = cube;
+  p[10] = sin1;
+  p[11] = cos1;
+  p[12] = tan1;
+  p[13] = factorial;
+  p[14] = logarithemicvalue;
+  p[15] = exponential;
+  p[16] = log_base10;
+  p[17] = fabsolute;
   
   printf("0:add;1:sub;2:multiply;3:divide;4:power;5:bitwise_or;6:bitwise_and;7:Xor;8:square;9:cube;10:sin/n;11:cos;12:tan;13:factorial;14:logarithemicvalue;15:exponential;16:log_base10;17:fabsolute\n");
   do {
@@ -37,13 +38,18 @@ int main(void)
   if (op >7 && op< 17){
     printf("enter the number: ");
     scanf("%f", &num1);
-    result = (*q[op])(num1);
+    result = (*p[op])(num1);
     printf("result: %f", result);
   }
   if (op>-1 && op<7)
   {
       printf("Enter numbers: ");
       scanf("%f %f", &num1, &num2);
+      if(op=5 ||op=6)
+      {
+        result=(*bit_funcs[op])(num1,num2);
+        break;
+      }
       result = (*q[op])(num1, num2);
       printf("result : %f", result);
 
@@ -54,3 +60,5 @@ int main(void)
 
   return 0;
 }
+
+
