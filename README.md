@@ -28,3 +28,14 @@
 
 
 
+| Name         | PS Number             | Challenges faced                                                                                                        | Challenges Overcome       | Knowledge Gained                  |
+|--------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------|---------------------------|-----------------------------------|
+| P Saikeerthi | 99003539 Stepin104510 | ->Communication Problem ->Merge conflicts ->Internet issues ->faced issue while gathering information for SWOT analysis | Resolved mentioned issues | Done a research work on CPP Check |
+|              |                       |                                                                                                                         |                           |                                   |
+|              |                       |                                                                                                                         |                           |                                   |
+|              |                       |                                                                                                                         |                           |                                   |
+|              |                       |                                                                                                                         |                           |                                   |
+|              |                       |                                                                                                                         |                           |                                   |
+|              |                       |                                                                                                                         |                           |                                   |
+|              |                       |                                                                                                                         |                           |                                   |
+|              |                       |                                                                                                                         |                           |                                   |
