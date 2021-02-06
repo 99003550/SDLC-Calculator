@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <calculator.h>
 
-float (*q[18])(float x);
+float (*q[18])(float x,float y);
 int main(void)
 {
   float result;
