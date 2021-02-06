@@ -48,8 +48,9 @@ int main(void)
       if(op==5 ||op==6)
       {
         result=(*bit_funcs[op])(num1,num2);
-        break;
+        
       }
+      break;
       result = (*q[op])(num1, num2);
       printf("result : %f", result);
 
