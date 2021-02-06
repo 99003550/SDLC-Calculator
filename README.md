@@ -12,7 +12,7 @@
 | Name         | ID       | Features                                                                                                                            | Issues raised | Issues solved |
 |--------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|---------------|---------------|
 | P Saikeerthi | 99003539 | ->Done with SWOT analysis.          ->Developed Low level diagrams. -> Built code for Xor and Log operation. ->Test cases for same. |               |               |
-|              |          |                                                                                                                                     |               |               |
+| R SANJANA             | 99003540         |  -> Requirements ->Developed low level diagrams  -> Built code for factorial and power operation. ->Test cases for the same.                                                                                                                               |               |              |
 |              |          |                                                                                                                                     |               |               |
 |              |          |                                                                                                                                     |               |               |
 |              |          |                                                                                                                                     |               |               |
