@@ -4,12 +4,14 @@
 float (*p[10])(float x);
 float (*q[9])(float x,float y);
 int (*bit_funcs[3])(float x,float y);
+
 int main(void)
 {
   float result;
   int op;
   float num1,num2;
-  
+  int bit_result;
+  int bit_num1,bit_num2;
   q[0] = add;
   q[1] = sub;
   q[2] = multiply;
@@ -56,11 +58,7 @@ int main(void)
        printf("result : %d", bit_result);
 
       }
-     
-      
-  }
-
-
+    
   //test_main();
 
   return 0;
