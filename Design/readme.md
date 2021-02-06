@@ -106,3 +106,8 @@ Exponential uml diagram
 
 ![alt text](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Exponential/exp%20beh.png)
 
+Xor uml diagram
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwisexor/BitwiseXor.jpeg)
+
+
+
