@@ -9,17 +9,3 @@
 
 
 
-\begin{table}[]
-\begin{tabular}{lllll}
-Name         & ID       & Features                                                                                                                                                                                                                            & Issues raised & Issues solved \\
-P Saikeerthi & 99003539 & \begin{tabular}[c]{@{}l@{}}-\textgreater{}Done with SWOT analysis.         \\ -\textgreater{}Developed Low level diagrams.\\ -\textgreater Built code for Xor and Log operation.\\ -\textgreater{}Test cases for same.\end{tabular} &               &               \\
-             &          &                                                                                                                                                                                                                                     &               &               \\
-             &          &                                                                                                                                                                                                                                     &               &               \\
-             &          &                                                                                                                                                                                                                                     &               &               \\
-             &          &                                                                                                                                                                                                                                     &               &               \\
-             &          &                                                                                                                                                                                                                                     &               &               \\
-             &          &                                                                                                                                                                                                                                     &               &               \\
-             &          &                                                                                                                                                                                                                                     &               &               \\
-             &          &                                                                                                                                                                                                                                     &               &              
-\end{tabular}
-\end{table}
