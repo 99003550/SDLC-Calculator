@@ -54,9 +54,9 @@ int main() {
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "square", test_square);
   CU_add_test(suite, "cube", test_cube);
-  CU_add_test(suite, "sin1", test_sin);
-  CU_add_test(suite, "cos1", test_cos);
-  CU_add_test(suite, "tan1", test_tan);
+  CU_add_test(suite, "sin1", test_sin1);
+  CU_add_test(suite, "cos1", test_cos1);
+  CU_add_test(suite, "tan1", test_tan1);
   CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "power", test_power);
   CU_add_test(suite, "bitwise_or", test_bitwise_or);
