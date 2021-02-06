@@ -28,13 +28,3 @@
 
 
 
-| Name         | PS Number             | Challenges Faced                                                                                                                       | Challenges Overcome | Knowledge Gained               |
-|------------stregrthrth|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------------------|--------------------------------|
-| P Saikeerthi | 99003539 Stepin104510 | ->Communication Problem ->Merge conflicts ->Internet issues ->unit Testing ->faced issue while gathering information for SWOT analysis | Resolved challenges | Did research work on CPP check |
-| R Sanjana    | 99003540              |                                                                                                                                        |                     |                                |
-|              |                       |                                                                                                                                        |                     |                                |
-| Aiswariya S  | 99003542 Stepin104814 |                                                                                                                                        |                     |                                |
-|              |                       |                                                                                                                                        |                     |                                |
-|              |                       |                                                                                                                                        |                     |                                |
-|              |                       |                                                                                                                                        |                     |                                |
-|              |                       |                                                                                                                                        |                     |                                |
