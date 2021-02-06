@@ -14,7 +14,7 @@
 
 | Name         | ID       | Features                                                                                                                            | Issues raised | Issues solved |
 |--------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|---------------|---------------|
-| P Saikeerthi | 99003539 | ->Done with SWOT analysis.          ->Developed Low level diagrams. -> Built code for Xor and Log operation. ->Test cases for same. |               |               |
+| P Saikeerthi | 99003539(stepin104510) | ->Done with SWOT analysis.          ->Developed Low level diagrams. -> Built code for Xor and Log operation. ->Test cases for same. |               |               |
 | R SANJANA             | 99003540(stepin104351)    |  -> Requirements ->Developed low level diagrams  -> Built code for factorial and power operation. ->Test cases for the same.                                                                                                                               |               |              |
 | Anusha V C             |  99003541 (stepin104985) | -> Research - pros and cons ->Developed low level diagrams ->Built code for log_base10 and absolute functions.->Test cases for same.                                                                                                                                 |               |               |
 | Aiswariya S          |99003542       | ->High Level designs ->Developed low level diagrams ->Built code for exponential functions.->Test cases for same.                                                                                                                      
