@@ -45,7 +45,7 @@ int main(void)
   {
       printf("Enter numbers: ");
       scanf("%f %f", &num1, &num2);
-      if(op=5 ||op=6)
+      if(op==5 ||op==6)
       {
         result=(*bit_funcs[op])(num1,num2);
         break;
