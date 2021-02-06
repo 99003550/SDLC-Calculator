@@ -1,7 +1,9 @@
-name: C/C++ CI
+ name: C/C++ CI
 
 on:
   push:
+    branches: [ main ]
+  pull_request:
     branches: [ main ]
 
 jobs:
@@ -12,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: make all
-      run:  make all C- SDLC-Calculator/Implementation/
+    - name: make
+      run:  make -C SDLC-Calculator/Implementation/
 
