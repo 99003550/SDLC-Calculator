@@ -44,7 +44,7 @@ int main(void)
   {
       printf("Enter numbers: ");
       scanf("%f %f", &num1, &num2);
-      result = (*(q[op])(num1, num2));
+      result = (*q[op])(num1, num2);
       printf("result : %f", result);
 
   }
