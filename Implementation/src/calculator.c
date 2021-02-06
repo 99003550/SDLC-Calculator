@@ -60,7 +60,7 @@ int bitwise_and(int num1, int num2)
 {
     return num1&num2;
 }
-float Xor(int num1, int num2)
+int Xor(int num1, int num2)
 {
     return num1^num2;
 }
@@ -114,7 +114,7 @@ float logarithemicvalue(float num1)
 {
     return log(num1);
 }
-double exponent(double num1)
+float exponent(float num1)
 {
 
     return exp(num1);
