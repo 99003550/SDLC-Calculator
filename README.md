@@ -7,9 +7,17 @@
 
 
 
-
-# Name : P Saikeerthi
-ID : 99003539
-Features : Done with SWOT analysis, developed low level diagrams, built code for Xor and Log operation and wrote test cases for same.
-Issues raised :
-Issues solved :
+\begin{table}[]
+\begin{tabular}{lllll}
+Name         & ID       & Features                                                                                                                                                                                                                            & Issues raised & Issues solved \\
+P Saikeerthi & 99003539 & \begin{tabular}[c]{@{}l@{}}-\textgreater{}Done with SWOT analysis.         \\ -\textgreater{}Developed Low level diagrams.\\ -\textgreater Built code for Xor and Log operation.\\ -\textgreater{}Test cases for same.\end{tabular} &               &               \\
+             &          &                                                                                                                                                                                                                                     &               &               \\
+             &          &                                                                                                                                                                                                                                     &               &               \\
+             &          &                                                                                                                                                                                                                                     &               &               \\
+             &          &                                                                                                                                                                                                                                     &               &               \\
+             &          &                                                                                                                                                                                                                                     &               &               \\
+             &          &                                                                                                                                                                                                                                     &               &               \\
+             &          &                                                                                                                                                                                                                                     &               &               \\
+             &          &                                                                                                                                                                                                                                     &               &              
+\end{tabular}
+\end{table}
