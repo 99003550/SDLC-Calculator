@@ -18,5 +18,5 @@
 |              |          |                                                                                                                                     |               |               |
 |              |          |                                                                                                                                     |               |               |
 |              |          |                                                                                                                                     |               |               |
-|              |          |                                                                                                                                     |               |               |
+|              |          |                                                                                                                                     |Midhun M Menon | 99003550      | -> Integrated all the work. -> Did Test Plan. -> Developed Low Level diagrams. -> Build the makefile and main.c | 
 |              |          |                                                                                                                                     |               |               |
