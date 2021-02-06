@@ -109,5 +109,6 @@ Exponential uml diagram
 Xor uml diagram
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Bitwisexor/BitwiseXor.jpeg)
 
-
+Log Operation
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Logoperation/Logoperation.jpeg)
 
