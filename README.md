@@ -24,10 +24,7 @@
 |Shaik Rehana              |99003549          |->I have did Research Work -> Developed low level Diagrams ->Build code for Bitwise or and Bitwise and -> test cases for the same -> I have did cppcheck and ci workflows.                                                                                                                                     |               |               |
 |Midhun M Menon | 99003550 (stepin105160)    | -> Integrated all the work. -> Did Test Plan. -> Developed Low Level diagrams. -> Build the code for multiplication and division.-> Test cases for the same -> Build the makefile and main.c | 
 
-
-
-
-
+# Challenges overcome and Knlowedge Gained
 
 
 | Name         | PS Number             | Challenges faced                                                                                                        | Challenges Overcome       | Knowledge Gained                  |
