@@ -3,7 +3,7 @@
 #include <calculator.h>
 float (*p[10])(float x);
 float (*q[18])(float x,float y);
-float (*bit_funcs[20])(float x,float y);
+int (*bit_funcs[20])(float x,float y);
 int main(void)
 {
   float result;
