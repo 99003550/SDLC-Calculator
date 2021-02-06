@@ -9,11 +9,13 @@
 
 ![Unit testing](https://github.com/99003560/calculator/workflows/Unit%20testing/badge.svg)
 
+## CONTRIBUTOR LIST
+
 
 | Name         | ID       | Features                                                                                                                            | Issues raised | Issues solved |
 |--------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|---------------|---------------|
 | P Saikeerthi | 99003539 | ->Done with SWOT analysis.          ->Developed Low level diagrams. -> Built code for Xor and Log operation. ->Test cases for same. |               |               |
-| R SANJANA             | 99003540         |  -> Requirements ->Developed low level diagrams  -> Built code for factorial and power operation. ->Test cases for the same.                                                                                                                               |               |              |
+| R SANJANA             | 99003540(stepin104351)    |  -> Requirements ->Developed low level diagrams  -> Built code for factorial and power operation. ->Test cases for the same.                                                                                                                               |               |              |
 | Anusha V C             |  99003541        | -> Research - pros and cons ->Developed low level diagrams ->Built code for log_base10 and absolute functions.->Test cases for same.                                                                                                                                 |               |               |
 | Aiswariya S          |99003542       | ->High Level designs ->Developed low level diagrams ->Built code for exponential functions.->Test cases for same.                                                                                                                      
 | Anurag Dangi              |  99003544             | ->Requirements ->High level and low level requirements ->Built code for square and cube function ->Test cases for both.
@@ -31,7 +33,7 @@
 | Name         | PS Number             | Challenges faced                                                                                                        | Challenges Overcome       | Knowledge Gained                  |
 |--------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------|---------------------------|-----------------------------------|
 | P Saikeerthi | 99003539 Stepin104510 | ->Communication Problem ->Merge conflicts ->Internet issues ->faced issue while gathering information for SWOT analysis | Resolved mentioned issues | Done a research work on CPP Check |
-|              |                       |                                                                                                                         |                           |                                   |
+| R Sanjana    | 99003540 stepin104351 | ->merge conflicts -> Internet issues                                                                                                                     |                           | Done a reasearch work on CPP Check                                  |
 |              |                       |                                                                                                                         |                           |                                   |
 |              |                       |                                                                                                                         |                           |                                   |
 |              |                       |                                                                                                                         |                           |                                   |
