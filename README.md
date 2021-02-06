@@ -7,6 +7,7 @@
 ![cppcheck-action](https://github.com/99003550/SDLC-Calculator/workflows/cppcheck-action/badge.svg)
 ![CI](https://github.com/99003550/SDLC-Calculator/workflows/CI/badge.svg)
 
+![Unit testing](https://github.com/99003550/calculator/workflows/Unit%20testing/badge.svg)
 
 
 | Name         | ID       | Features                                                                                                                            | Issues raised | Issues solved |
