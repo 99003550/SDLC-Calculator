@@ -37,21 +37,7 @@
 |  Anusha V C  | 99003541 stepin104985 | ->unit testing ->merge conflicts | resloved mentioned issues    |  Done a reasearch work on CPP Check                               
 | Aiswariya S           | 99003542                     |-> had issues while gathering information about High level Design  ->network issues while commit                                                                                                                       | resolved issues in design                         | gained knowledge about Github workflow and design                               |
 | Anurag Dangi             | 99003544(stepin104897)                      |  >Communication Problem ->Merge conflicts ->some issues in high level and low level requirements                                                                                                                       |  resloved issues in documentation and design                         |  Done a research work on CPP Check                                  |
+| Vinay H P             | 99003545(stepin104955)                      | ->Communication Problem ->Merge conflicts ->Internet issues                                                                                                                        | Resolved mentioned issues                          | Done a research work on CPP Check                                  |
 |              |                       |                                                                                                                         |                           |                                   |
 |              |                       |                                                                                                                         |                           |                                   |
 |              |                       |                                                                                                                         |                           |                                   |
-|              |                       |                                                                                                                         |                           |                                   |
-
-# UML's and Test cases
-
-| Name          | PS Number               | HL diagram | LL diagram | Test cases passed | Test Cases Failed |
-|---------------|-------------------------|------------|------------|-------------------|-------------------|
-| P Saikeerthi  | 99003539 Stepin104510   | 0          | 2          | 2                 | 0                 |
-| R Sanjana     | 99003540 stepin104351   | 0          | 2          | 2                 | 0                 |
-| Anusha V C    | 99003541 stepin104985   | 0          | 2          | 2                 | 0                 |
-| Aiswariya S   | 99003542 stepin104814   | 4          | 1          | 2                 | 0                 |
-| Anurag Dangi  | 99003544 Stepin104897   | 0          | 2          | 2                 | 0                 |
-| Vinay H P     | 99003545 stepin104955   | 0          | 2          | 2                 | 0                 |
-| K N S Anusha  | 99003547 anushakurasala | 0          | 3          | 3                 | 0                 |
-| Shaik Rehana  | 99003549 stepin105057   | 0          | 2          | 2                 | 0                 |
-| Midhun MMenon | 99003550 Stepin105160   | 0          | 2          | 2                 | 0                 |
