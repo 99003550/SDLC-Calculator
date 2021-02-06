@@ -18,9 +18,9 @@ void test_logarithemicvalue(void);
 void test_log_base10(void);
 void test_fabsolute(void);
 
-void test_sin(void);
-void test_cos(void);
-void test_tan(void);
+void test_sin1(void);
+void test_cos1(void);
+void test_tan1(void);
 
 void test_factorial(void);
 void test_power(void);
@@ -54,9 +54,9 @@ int main() {
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "square", test_square);
   CU_add_test(suite, "cube", test_cube);
-  CU_add_test(suite, "sin", test_sin);
-  CU_add_test(suite, "cos", test_cos);
-  CU_add_test(suite, "tan", test_tan);
+  CU_add_test(suite, "sin1", test_sin);
+  CU_add_test(suite, "cos1", test_cos);
+  CU_add_test(suite, "tan1", test_tan);
   CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "power", test_power);
   CU_add_test(suite, "bitwise_or", test_bitwise_or);
@@ -110,17 +110,17 @@ void test_square(void){
 void test_cube(void){
     CU_ASSERT(125 == cube(5));
 }
-void test_sin(void)
+void test_sin1(void)
 {
-  CU_ASSERT(0 == sin(0));
+  CU_ASSERT(0 == sin1(0));
 }
-void test_cos(void)
+void test_cos1(void)
 { 
-  CU_ASSERT(1 == cos(0));
+  CU_ASSERT(1 == cos1(0));
 }
-void test_tan(void)
+void test_tan1(void)
 {
-  CU_ASSERT(1 == tan(45));
+  CU_ASSERT(1 == tan1(45));
 }
 void test_factorial(void)
 {
