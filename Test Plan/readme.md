@@ -1,3 +1,5 @@
+**LOW LEVEL TEST PLANS IN CALCULATOR**
+
 | ID   | DESCRIPTION                                                         | EXPECTED INPUT      | EXPECTED OUTPUT |
 |------|---------------------------------------------------------------------|---------------------|-----------------|
 | TP1  | To add two float numbers and  display the result on calculator      | 2+2                 | 4               |
