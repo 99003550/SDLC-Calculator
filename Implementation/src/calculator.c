@@ -79,15 +79,15 @@ float cube(float num1)
     return result;
 }
 
-float sin(float num1)
+float sin1(float num1)
 {
     return sin(num1);
 }
-float cos(float num1)
+float cos1(float num1)
 {
     return cos(num1);
 }
-float tan(float num1)
+float tan1(float num1)
 {
     if(num1==pi/2)
     {
