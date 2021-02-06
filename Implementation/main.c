@@ -19,9 +19,9 @@ int main(void)
   q[7] = Xor;
   q[8] = square;
   q[9] = cube;
-  q[10] = sin;
-  q[11] = cos;
-  q[12] = tan;
+  q[10] = sin1;
+  q[11] = cos1;
+  q[12] = tan1;
   q[13] = factorial;
   q[14] = logarithemicvalue;
   q[15] = exponential;
