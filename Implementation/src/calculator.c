@@ -47,22 +47,22 @@ float power(float num1, float num2)
        return pow(num1, num2);
     }
 }
-int bitwise_or(int num1, int num2)
+int bitwise_or(int bit_num1, int bit_num2)
 
 
 {
-    return num1|num2;
+    return bit_num1|bit_num2;
 }
 
-int bitwise_and(int num1, int num2)
+int bitwise_and(int bit_num1, int bit_num2)
 
 
 {
-    return num1&num2;
+    return bit_num1&bit_num2;
 }
-int Xor(int num1, int num2)
+int Xor(int bit_num1, int bit_num2)
 {
-    return num1^num2;
+    return bit_num1^bit_num2;
 }
     
 
