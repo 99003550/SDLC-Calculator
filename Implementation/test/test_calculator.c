@@ -152,11 +152,13 @@ void test_exponential(void)
 }
 void test_log_base10(void)
 {
- CU_ASSERT(0.69 == log_base10(5)); 
+ CU_ASSERT(0.69 == log_base10(5));
+  CU_ASSERT(1 == log_base10(10)); 
 }
 void test_fabsolute(void)
 {
  CU_ASSERT(1.5 == fabsolute(-1.5)); 
+ CU_ASSERT(5.9 == fabsolute(-5.9)); 
 
 }
 
