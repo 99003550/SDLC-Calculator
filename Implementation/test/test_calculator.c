@@ -1,5 +1,4 @@
-#include <CUnit/Basic.h>
-#include <CUnit/CUnit.h>
+#include<unity.h>
 
 /* Modify these two lines according to the project */
 #include <calculator.h>

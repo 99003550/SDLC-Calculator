@@ -10,12 +10,14 @@ src/calculator.c\
 
 # All test source files
 TEST_SRC = src/calculator.c\
-test/test_calculator.c
+test/test_calculator.c\
+unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= -Iinc
+INC	= -Iinc\
+-Iunity
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
