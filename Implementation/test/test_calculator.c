@@ -7,6 +7,7 @@
 /* Prototypes for all the test functions */
 void test_multiply(void);
 void test_multiply1(void)
+void test_multiply2(void);
 void test_divide(void);
 void test_divide1(void);
 void test_bitwise_or(void);
@@ -61,6 +62,10 @@ void test_multiply(void){
 }
 void test_multiply1(void){
   TEST_ASSERT_EQUAL(24,multiply(4,6));
+    
+}
+void test_multiply2(void){
+  TEST_ASSERT_EQUAL(0,multiply(4,0));
     
 }
 void test_divide(void){
@@ -165,6 +170,7 @@ int main(){
     RUN_TEST(test_sub);
     RUN_TEST(test_multiply);
     RUN_TEST(test_multiply1);
+    RUN_TEST(test_multiply2);
     RUN_TEST(test_divide);
     RUN_TEST(test_divide1);
     RUN_TEST(test_square);
