@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <calculator.h>
 float (*p[10])(float x);
-float (q[9])(float *x,float *y);
+float (*q[9])(float *x,float *y);
 int (*bit_funcs[3])(int x,int y);
 
 int main(void)
