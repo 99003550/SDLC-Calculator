@@ -32,134 +32,132 @@ void test_sub(void);
 
 void test_square(void);
 void test_cube(void);
+void setUp(){}
+
+void tearDown(){}
 
 
-
-/* Start of the application test */
-int main() {
-/* Note: Do not edit START*/
-  /*Initialize and setup the Test Framework */
-  if (CUE_SUCCESS != CU_initialize_registry())
-    return CU_get_error();
-  CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
-/* Note: Do not edit END */
-
-
-  /* Add your test functions in this format for testing*/
-  
-  CU_add_test(suite, "add", test_add);
-  CU_add_test(suite, "sub", test_sub);
-  CU_add_test(suite, "multiply", test_multiply);
-  CU_add_test(suite, "divide", test_divide);
-  CU_add_test(suite, "square", test_square);
-  CU_add_test(suite, "cube", test_cube);
-  CU_add_test(suite, "sin1", test_sin1);
-  CU_add_test(suite, "cos1", test_cos1);
-  CU_add_test(suite, "tan1", test_tan1);
-  CU_add_test(suite, "factorial", test_factorial);
-  CU_add_test(suite, "power", test_power);
-  CU_add_test(suite, "bitwise_or", test_bitwise_or);
-  CU_add_test(suite, "bitwise_and", test_bitwise_and);
-  CU_add_test(suite, "xor",test_Xor);
-  CU_add_test(suite,"logarithemicvalue",test_logarithemicvalue);
-  CU_add_test(suite, "exponential", test_exponential);
-  CU_add_test(suite, "log_base10", test_log_base10);
-  CU_add_test(suite, "fabsolute", test_fabsolute);
-  
-  
-
-  
-
-
-/* Note: Do not edit START*/
-  /* Setup Test Framework to output the result to Screen */
-  CU_basic_set_mode(CU_BRM_VERBOSE);
-
-
-  /* run the unit test framework*/
-  CU_basic_run_tests();
-
-  /* Cleaning the Resources used by Unit test framework */
-  CU_cleanup_registry();
-/* Note: Do not edit END */
-  return 0;
-}
 
 /* Write all the test functions */
 
+
 void test_add(void){
-    CU_ASSERT(1 == add(1,0));
-    CU_ASSERT(7 == add(2,5));
+  TEST_ASSERT_EQUAL(1,add(1,0))
 }
 void test_sub(void){
-    CU_ASSERT(1 == sub(1,0));
-    CU_ASSERT(3 == sub(5,2));
+  TEST_ASSERT_EQUAL(1,sub(1,0));
+    
 }
 void test_multiply(void){
-    CU_ASSERT(0 == multiply(1,0));
-    CU_ASSERT(10 == multiply(2,5));
+  TEST_ASSERT_EQUAL(10,multiply(2,5));
+    
 }
 void test_divide(void){
-    CU_ASSERT(0 == divide(1,0));
-    CU_ASSERT(1 == divide(2,2));
+  
+     TEST_ASSERT_EQUAL(1,divide(2,2));
+    
 }
 void test_square(void){
-    CU_ASSERT(4 == square(2));
+    TEST_ASSERT_EQUAL(4,square(2));
+    
 }
 void test_cube(void){
-    CU_ASSERT(125 == cube(5));
+    TEST_ASSERT_EQUAL(125,cube(5));
 }
 void test_sin1(void)
 {
-  CU_ASSERT(0 == sin1(0));
+  TEST_ASSERT_EQUAL(0,sin1(0));
 }
 void test_cos1(void)
-{ 
-  CU_ASSERT(1 == cos1(0));
+{  
+  TEST_ASSERT_EQUAL(1,cos1(0));
+ 
 }
 void test_tan1(void)
 {
-  CU_ASSERT(1 == tan1(45));
+  TEST_ASSERT_EQUAL(1,tan1(45));
+ 
 }
 void test_factorial(void)
 {
-  CU_ASSERT(6 == factorial(3));
-}
+  TEST_ASSERT_EQUAL(6,factorial(3));
+  
 
 void test_power(void) 
 {
+  TEST_ASSERT_EQUAL(1,pow(2,0));
   CU_ASSERT(1== pow(2,0));
 }
 void test_bitwise_or(void) {
-  CU_ASSERT(1 == bitwise_or(1, 0));
+  TEST_ASSERT_EQUAL(1,bitwise_or(1, 0)));
+ 
 
 }
 void test_bitwise_and(void) {
-  CU_ASSERT(0 == bitwise_and(1, 0));
-
+   TEST_ASSERT_EQUAL(0,bitwise_and(1, 0));
+ 
 }
 
 void test_xor(void){
-  CU_ASSERT(1 == Xor(1,0));
+TEST_ASSERT_EQUAL(1,Xor(1,0));
+  
 }
 void test_logarithemicvalue(void){
-  CU_ASSERT(1.609 == logarithemicvalue(5));
+  TEST_ASSERT_EQUAL(1.609,logarithemicvalue(5));
+  
 }
 void test_exponential(void)
 {
-   CU_ASSERT(8.166170 == exponential(2.100000));
+ TEST_ASSERT_EQUAL(8.166170 ,exponential(2.100000));
+   
+   
 }
 void test_log_base10(void)
 {
- CU_ASSERT(0.69 == log_base10(5));
-  CU_ASSERT(1 == log_base10(10)); 
-}
+  TEST_ASSERT_EQUAL(0.69 ,log_base10(5));
+ 
 void test_fabsolute(void)
 {
- CU_ASSERT(1.5 == fabsolute(-1.5)); 
- CU_ASSERT(5.9 == fabsolute(-5.9)); 
+  TEST_ASSERT_EQUAL(1.5  ,fabsolute(-1.5));
+
 
 }
+void setUp(){}
+
+void tearDown(){}
+int main(){
+    UNITY_BEGIN();
+     RUN_TEST(test_add);
+    RUN_TEST(test_sub);
+    RUN_TEST(test_multiply);
+    RUN_TEST(test_divide);
+    RUN_TEST(test_square);
+     RUN_TEST(test_sin1);
+     RUN_TEST(test_cos1);
+     RUN_TEST(test_tan1);
+     RUN_TEST(test_factorial);
+     RUN_TEST(test_power);
+     RUN_TEST(test_bitwise_or);
+     RUN_TEST(test_bitwise_and);
+     RUN_TEST(test_xor);
+     RUN_TEST(test_logarithemicvalue);
+     RUN_TEST(test_exponential);
+     RUN_TEST(test_log_base10);
+     
+     RUN_TEST(test_fabsolute);
+     
+
+
+
+     
+
+
+
+     //RUN_TEST(test_average);     
+     return UNITY_END();
+
+}
+
 
 
 
