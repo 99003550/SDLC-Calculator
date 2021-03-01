@@ -10,7 +10,7 @@
 | TP5  | To find square root of a number                                     | Square root(16)     | 4               |
 | TP6  | To find cube root of a number                                       | Cube root(27)       | 3               |
 | TP7  | To find factorial of a number                                       | Fact(5)             | 120             |
-| TP8  | To find power of a number                                           | Power of2^3         | 8               |
+| TP8  | To find power of a number                                           | Power of2^3          | 8               |
 | TP9  | To find bitwise-and of a number                                     | 12&25               | 8(Binary)       |
 | TP10 | To find bitwise-or of a number                                      | 12\|25              | 29(Binary)      |
 | TP11 | To find bitwise-xor of a number                                     | 12^25               | 21(Binary)      |
