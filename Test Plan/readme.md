@@ -22,7 +22,8 @@
 | TP18 | To find tan of a number                                         | Tan(45)             | 1               |
 
 
- High Level Test Plan
+
+**High Level Test Plan**
  
 |Test ID   |Description   |Input   |Expected Output   |
 |---|---|---|---|
