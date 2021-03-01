@@ -114,5 +114,8 @@ Xor uml diagram
 Log Operation
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Logoperation/Logoperation.jpeg)
 
-Addsub Operation
+Addsub  structural diagram
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Addsub/Addsub.png)
+
+Addsub behavioural diagram
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Addsub/Add_Sub_Behavioral.PNG)
