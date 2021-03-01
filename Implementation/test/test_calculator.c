@@ -42,7 +42,7 @@ void tearDown(){}
 
 
 void test_add(void){
-  TEST_ASSERT_EQUAL(1,add(1,0))
+  TEST_ASSERT_EQUAL(1,add(1,0));
 }
 void test_sub(void){
   TEST_ASSERT_EQUAL(1,sub(1,0));
@@ -86,10 +86,10 @@ void test_factorial(void)
 void test_power(void) 
 {
   TEST_ASSERT_EQUAL(1,pow(2,0));
-  CU_ASSERT(1== pow(2,0));
+  
 }
 void test_bitwise_or(void) {
-  TEST_ASSERT_EQUAL(1,bitwise_or(1, 0)));
+  TEST_ASSERT_EQUAL(1,bitwise_or(1, 0));
  
 
 }
@@ -146,13 +146,6 @@ int main(){
      
      RUN_TEST(test_fabsolute);
      
-
-
-
-     
-
-
-
      //RUN_TEST(test_average);     
      return UNITY_END();
 
