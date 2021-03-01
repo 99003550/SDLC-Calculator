@@ -81,7 +81,7 @@ void test_tan1(void)
 void test_factorial(void)
 {
   TEST_ASSERT_EQUAL(6,factorial(3));
-  
+}
 
 void test_power(void) 
 {
@@ -115,6 +115,7 @@ void test_exponential(void)
 void test_log_base10(void)
 {
   TEST_ASSERT_EQUAL(0.69 ,log_base10(5));
+}
  
 void test_fabsolute(void)
 {
@@ -146,7 +147,7 @@ int main(){
      
      RUN_TEST(test_fabsolute);
      
-     //RUN_TEST(test_average);     
+         
      return UNITY_END();
 
 }
