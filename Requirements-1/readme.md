@@ -66,6 +66,7 @@ UML Activity Diagram for bitwise or:
 | It has smaller sized screen only. | It has both smaller sized and larger sized screen. |
 | Here we cannot develop a graph for the function. | Graphs can be developed for the functions performed. |
 | It is cost effective. | It is expensive comparatively. |
+| The user cannot perform operations beyond arithmetic. | It can perform complex operations. |
 
 
 **SWOT ANALYSIS**
