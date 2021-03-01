@@ -73,16 +73,24 @@ void test_sin1(void)
 }
 void test_sin2(void)
 {
-  TEST_ASSERT_EQUAL(1,sin1(90));
+  TEST_ASSERT_EQUAL(1,sin2(90));
 }
 void test_cos1(void)
 {  
   TEST_ASSERT_EQUAL(1,cos1(0));
- 
+}
+void test_cos2(void)
+{  
+  TEST_ASSERT_EQUAL(0,cos2(90));
 }
 void test_tan1(void)
 {
   TEST_ASSERT_EQUAL(1,tan1(45));
+ 
+}
+void test_tan2(void)
+{
+  TEST_ASSERT_EQUAL(0,tan2(0));
  
 }
 void test_factorial(void)
@@ -141,6 +149,9 @@ int main(){
      RUN_TEST(test_sin1);
      RUN_TEST(test_cos1);
      RUN_TEST(test_tan1);
+     RUN_TEST(test_sin2);
+     RUN_TEST(test_cos2);
+     RUN_TEST(test_tan2);
      RUN_TEST(test_factorial);
      RUN_TEST(test_power);
      RUN_TEST(test_bitwise_or);
