@@ -123,9 +123,7 @@ void test_fabsolute(void)
 
 
 }
-void setUp(){}
 
-void tearDown(){}
 int main(){
     UNITY_BEGIN();
      RUN_TEST(test_add);
