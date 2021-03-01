@@ -18,8 +18,11 @@ void test_log_base10(void);
 void test_fabsolute(void);
 
 void test_sin1(void);
+void test_sin2(void);
 void test_cos1(void);
+void test_cos2(void);
 void test_tan1(void);
+void test_tan2(void);
 
 void test_factorial(void);
 void test_power(void);
@@ -67,6 +70,10 @@ void test_cube(void){
 void test_sin1(void)
 {
   TEST_ASSERT_EQUAL(0,sin1(0));
+}
+void test_sin2(void)
+{
+  TEST_ASSERT_EQUAL(1,sin1(90));
 }
 void test_cos1(void)
 {  
