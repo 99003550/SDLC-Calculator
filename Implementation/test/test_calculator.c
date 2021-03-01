@@ -36,7 +36,9 @@ void test_add(void);
 void test_sub(void);
 
 void test_square(void);
+void test_square1(void);
 void test_cube(void);
+void test_cube1(void);
 void setUp(){}
 
 void tearDown(){}
@@ -75,8 +77,15 @@ void test_square(void){
     TEST_ASSERT_EQUAL(4,square(2));
     
 }
+void test_square1(void){
+    TEST_ASSERT_EQUAL(9,square(3));
+    
+}
 void test_cube(void){
     TEST_ASSERT_EQUAL(125,cube(5));
+}
+void test_cube1(void){
+    TEST_ASSERT_EQUAL(216,cube(6));
 }
 void test_sin1(void)
 {
@@ -159,6 +168,9 @@ int main(){
     RUN_TEST(test_divide);
     RUN_TEST(test_divide1);
     RUN_TEST(test_square);
+    RUN_TEST(test_square1);
+    RUN_TEST(test_cube);
+    RUN_TEST(test_cube1);
      RUN_TEST(test_sin1);
      RUN_TEST(test_cos1);
      RUN_TEST(test_tan1);
