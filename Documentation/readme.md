@@ -341,6 +341,17 @@ file:///home/ltts/Desktop/bitwiseor%20uml.PNG
 | TP18 | To find tan of a number                                         | Tan(45)             | 1                   |
 
 
+**High Level Test Plan**
+ 
+|Test ID   |Description   |Input   |Expected Output   |
+|---|---|---|---|
+|HL_01   |Include buttons with number 0-9 and all the function buttons   |X= 0-9   |C= 01234567890   |
+|HL_02   |Logarithm should be signed function   |A= -23   |Error   |
+|HL_03   |Overflow will stop the process   |A= 10^12   |Stack Error   |
+
+
+
+
 **NORMAL TEST CASES IN CALCULATOR**
 
 1. Check if the calculator is a normal calculator or a scientific calculator.
