@@ -317,35 +317,40 @@ file:///home/ltts/Desktop/bitwiseor%20uml.PNG
 
 ![](RackMultipart20210205-4-127mc1d_html_dcff1beaa68d2a69.png) ![](RackMultipart20210205-4-127mc1d_html_24e9d314e0e6b254.png) ![](RackMultipart20210205-4-127mc1d_html_24e9d314e0e6b254.png)
 
-**CONVERSION FUNCTION TEST PLANS**
+**LOW LEVEL TEST PLANS IN CALCULATOR**
 
-| ID |
+| ID   | DESCRIPTION                                                         | EXPECTED INPUT      | EXPECTED OUTPUT |
+|------|---------------------------------------------------------------------|---------------------|-----------------|
+| TP1  | To add two float numbers and  display the result on calculator      | 2+2                 | 4               |
+| TP2  | To subtract two float numbers and  display the result on calculator | 5-2                 | 3               |
+| TP3  | To multiply two float numbers and  display the result on calculator | 2*3                 | 6               |
+| TP4  | To divide two float numbers and  display the result on calculator   | 50/2                | 25              |
+| TP5  | To find square root of a number                                     | Square root(16)     | 4               |
+| TP6  | To find cube root of a number                                       | Cube root(27)       | 3               |
+| TP7  | To find factorial of a number                                       | Fact(5)             | 120             |
+| TP8  | To find power of a number                                           | Power of2^3         | 8               |
+| TP9  | To find bitwise-and of a number                                     | 12&25               | 8(Binary)       |
+| TP10 | To find bitwise-or of a number                                      | 12\|25              | 29(Binary)      |
+| TP11 | To find bitwise-xor of a number                                     | 12^25               | 21(Binary)      |
+| TP12 | To find log of a number                                             | Log(10)             | 1               |
+| TP13 | To find log base_10 of a number                                     | Log base 10 of (11) | 1.041           |
+| TP14 | To find abs of a number                                             | Abs(10)             | 10              |
+| TP15 | To find exponential of a number                                     | Exp of (2)          | 7.389           |
+| TP16 | To find sin of a number                                            | Sin(90)             | 1                |
+| TP17 | To find cos of a number                                          | Cos(90)             | 0                  |
+| TP18 | To find tan of a number                                         | Tan(45)             | 1                   |
 
-DESCRIPTION |
 
-EXPECTED INPUT |
+**High Level Test Plan**
+ 
+|Test ID   |Description   |Input   |Expected Output   |
+|---|---|---|---|
+|HL_01   |Include buttons with number 0-9 and all the function buttons   |X= 0-9   |C= 01234567890   |
+|HL_02   |Logarithm should be signed function   |A= -23   |Error   |
+|HL_03   |Overflow will stop the process   |A= 10^12   |Stack Error   |
 
-EXPECTED OUTPUT |
-| --- | --- | --- | --- |
-| TC1 | To add two float numbers and display the result on calculator | 2+2 | 4 |
-| TC2 | To subtract two float numbers and display the result on calculator | 5-2 | 3 |
-| TC3 | To multiply two float numbers and display the result on calculator | 2\*3 | 6 |
-| TC4 | To divide two float numbers and display the result on calculator | 50/2 | 25 |
-| TC5 | To find square root of a number | Square root (16) | 4 |
-| TC6 | To find cube root of a number | Cube root(27) | 3 |
-| TC7 | To find factorial of a number | Fact(5) | 120 |
-| TC8 | To find power of a number | Power of 2^3 | 8 |
-| TC9 | To find bitwise-and of a number | 12 &amp; 25 | 8 (Binary) |
-| TC10 | To find bitwise-or of a number | 12 | 25 | 29 (Binary) |
-| TC11
- | To find bitwise-xor of a number | 12 ^ 25 | 21 (Binary) |
-| TC12 | To find log of a number | Log (10) | 1 |
-| TC13 | To find log base\_10 of a number | Log base 10 of (11) | 1.041393 |
-| TC14 | To find abs of a number | Abs(10) | 10 |
-| TC15 | To find exponential of a number | Exp of (2) | 7.38905 |
-| TC16 | To find sine of a number | Sin(90) | 1 |
-| TC17 | To find cosine of a number | Cos(90) | 0 |
-| TC18 | To find tangent of a number | Tan (45) | 1 |
+
+
 
 **NORMAL TEST CASES IN CALCULATOR**
 

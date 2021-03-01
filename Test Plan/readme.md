@@ -17,9 +17,20 @@
 | TP13 | To find log base_10 of a number                                     | Log base 10 of (11) | 1.041           |
 | TP14 | To find abs of a number                                             | Abs(10)             | 10              |
 | TP15 | To find exponential of a number                                     | Exp of (2)          | 7.389           |
-| TP16 | To find sin of a number                                            | Sin(90)             | 1               |
-| TP17 | To find cos of a number                                          | Cos(90)             | 0               |
-| TP18 | To find tan of a number                                         | Tan(45)             | 1               |
+| TP16 | To find sin of a number                                            | Sin(90)             | 1                |
+| TP17 | To find cos of a number                                          | Cos(90)             | 0                  |
+| TP18 | To find tan of a number                                         | Tan(45)             | 1                   |
+
+
+
+**High Level Test Plan**
+ 
+|Test ID   |Description   |Input   |Expected Output   |
+|---|---|---|---|
+|HL_01   |Include buttons with number 0-9 and all the function buttons   |X= 0-9   |C= 01234567890   |
+|HL_02   |Logarithm should be signed function   |A= -23   |Error   |
+|HL_03   |Overflow will stop the process   |A= 10^12   |Stack Error   |
+
 
 **NORMAL TEST PLANS IN CALCULATOR**
 
