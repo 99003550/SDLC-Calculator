@@ -9,7 +9,7 @@ int main(void)
 {
   float result;
   int op;
-  float q[9];
+  int q[9];
   float num1,num2;
   int bit_result;
   int bit_num1,bit_num2;
