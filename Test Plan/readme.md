@@ -4,7 +4,7 @@
 |------|---------------------------------------------------------------------|---------------------|-----------------|
 | TP1  | To add two float numbers and  display the result on calculator      | 2+2 ,10+20                | 4 , 30             |
 | TP2  | To subtract two float numbers and  display the result on calculator | 5-2  ,20-10               | 3 ,10              |
-| TP3  | To multiply two float numbers and  display the result on calculator | 2*3 ,12*2              | 6 ,24             |
+| TP3  | To multiply two float numbers and  display the result on calculator | 2*3             | 6             |
 | TP4  | To divide two float numbers and  display the result on calculator   | 50/2                | 25              |
 | TP5  | To find square root of a number                                     | Square root(16)     | 4               |
 | TP6  | To find cube root of a number                                       | Cube root(27)       | 3               |
