@@ -133,6 +133,7 @@ The main objective of the calculator is to perform the different types of operat
 - The precision of the calculator should be more.
 - The functions taking take input and process the output within nanoseconds.
 - for the exponential function the input must be positive.
+- for the logarithmic function the base value must be positive.
 
 **Requirement Mapping-**
 
