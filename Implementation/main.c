@@ -47,7 +47,7 @@ int main(void)
   {
       printf("Enter numbers: ");
       scanf("%f %f", &num1, &num2);
-      result = (q[op-10](*num1 , *num2));
+      result = (q[op-10](*num1 ,*num2));
       printf("result: %f", result);
     }
       if(op>15 && op<19)
