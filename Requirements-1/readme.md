@@ -132,6 +132,7 @@ The main objective of the calculator is to perform the different types of operat
 - The system functions need to be specified and work properly.
 - The precision of the calculator should be more.
 - The functions taking take input and process the output within nanoseconds.
+- for the exponential function the input must be positive.
 
 **Requirement Mapping-**
 
