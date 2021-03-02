@@ -9,6 +9,7 @@ int main(void)
 {
   float result;
   int op;
+  int
   float num1,num2;
   int bit_result;
   int bit_num1,bit_num2;
@@ -63,6 +64,7 @@ int main(void)
 
   return 0;
 }
+
 
 
 
