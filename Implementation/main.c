@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <calculator.h>
 float (*p[10])(float x);
-float (q[5])(float *x,float *y);
+float (*q[5])(float x,float y);
 int (*bit_funcs[3])(int x,int y);
 
 int main(void)
@@ -47,7 +47,7 @@ int main(void)
   {
       printf("Enter numbers: ");
       scanf("%f %f", &num1, &num2);
-      result = (q[op-10](num1 , num2));
+      result = (*q[op-10](num1 , num2));
       printf("result: %f", result);
     }
       if(op>15 && op<19)
