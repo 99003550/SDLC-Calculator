@@ -119,3 +119,12 @@ Addsub  structural diagram
 
 Addsub behavioural diagram
 ![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/Low%20Level%20Design/Addsub/Add_Sub_Behavioral.PNG)
+
+Cube behavioural diagram
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/High%20Level%20Design/square.png)
+
+Square  behavioural diagram
+
+![](https://github.com/99003550/SDLC-Calculator/blob/main/Design/High%20Level%20Design/cube.png)
+
+

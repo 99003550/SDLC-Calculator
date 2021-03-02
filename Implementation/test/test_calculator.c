@@ -40,9 +40,9 @@ void test_square(void);
 void test_square1(void);
 void test_cube(void);
 void test_cube1(void);
-void setUp(){}
+void setUp()
 
-void tearDown(){}
+void tearDown()
 
 
 

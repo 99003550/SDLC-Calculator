@@ -9,6 +9,7 @@
 
 ![Unit testing](https://github.com/99003560/calculator/workflows/Unit%20testing/badge.svg)
 
+[![Valgrind](https://github.com/99003550/SDLC-Calculator/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/99003550/SDLC-Calculator/actions/workflows/Valgrind.yml)
 ## CONTRIBUTOR LIST
 
 
