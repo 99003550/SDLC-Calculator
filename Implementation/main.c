@@ -10,9 +10,9 @@ int main(void)
   float result;
   int op;
   int
-  float num1,num2;
+  float num1, num2;
   int bit_result;
-  int bit_num1,bit_num2;
+  int bit_num1, bit_num2;
   q[0] = add;
   q[1] = sub;
   q[2] = multiply;
@@ -46,19 +46,19 @@ int main(void)
   }
   if (op>9 && op<16)
   {
-      printf("Enter numbers: ");
-      scanf("%f %f", &num1, &num2);
-      result = (q[op-10](&num1 ,&num2));
-      printf("result: %f", result);
-    }
-      if(op>15 && op<19)
-      {
-        printf("Enter bit_num1 and bit_num2: ");
-      scanf("%d %d", &bit_num1, &bit_num2);
-        bit_result=(*bit_funcs[op-16])(bit_num1,bit_num2);
-       printf("result : %d", bit_result);
+    printf("Enter numbers: ");
+    scanf("%f %f", &num1, &num2);
+    result = (q[op-10](&num1 ,&num2));
+    printf("result: %f", result);
+  }
+  if(op>15 && op<19)
+  {
+    printf("Enter bit_num1 and bit_num2: ");
+    scanf("%d %d", &bit_num1, &bit_num2);
+    bit_result=(*bit_funcs[op-16])(bit_num1,bit_num2);
+    printf("result : %d", bit_result);
 
-      }
+  }
     
   //test_main();
 
