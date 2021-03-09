@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = SDLC-CALCULATOR
+PROJECT_NAME = SDLC-Calculator
 
 # Output directory
 BUILD = build
