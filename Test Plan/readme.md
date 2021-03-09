@@ -21,7 +21,8 @@
 | TP16 | To find sin of a number                                            | Sin(90)             | 1                |
 | TP17 | To find cos of a number                                          | Cos(90)             | 0                  |
 | TP18 | To find tan of a number                                         | Tan(45)             | 1                   |
-
+| TP19 | To find floor of a number                                       | floor(5.4)          | 5.0000              |
+| TP20 | To find Ceil of a number                                        | Ceil(number)        |                     |
 
 
 **High Level Test Plan**
