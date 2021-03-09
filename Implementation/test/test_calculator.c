@@ -162,7 +162,7 @@ void test_bitwise_or(void) {
 }
 void test_bitwise_and(void) {
   CU_ASSERT(0 == bitwise_and(1, 0));
-  CU_ASSERT(0 == bitwise_and(-11, 0));
+  CU_ASSERT(0 == bitwise_and(-1, 0));
 }
 void test_xor(void){
 CU_ASSERT(1 == xor(1, 0));
