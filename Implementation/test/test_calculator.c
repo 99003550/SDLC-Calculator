@@ -35,6 +35,7 @@ void test_sum_upto_n(void);
 void test_ceilvalue(void);
 void test_floor_func(void);
 void test_fabsvalue(void);
+void test_power(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
