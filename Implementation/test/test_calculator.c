@@ -205,3 +205,4 @@ void test_atan2value(void){
 void test_exponent(void){
   CU_ASSERT(8.166170== exponent(2.100000));
 }
+
