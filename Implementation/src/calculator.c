@@ -40,9 +40,14 @@ float divide(float num1, float num2)
     }
 }
 float factorial(float num1)
-{
-    
+{if (num1 == 0)
+        {
+        return 1;
+       }
+    else
+    {
      return num1*factorial(num1-1);
+    }
     
 }
 float power(float num1, float num2)
