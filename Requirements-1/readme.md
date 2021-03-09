@@ -185,3 +185,6 @@ FUNCTIONAL REQUIREMENTS
 - POW(),ABS():These functions are used to calculate power and absolute of a given number which uses the standard library math.h.
 
 - SIN(),COS(),TAN():These functions are used to calculate trigonometric function of a given number which uses the standard library math.h.
+- Factorial():this function is used to calculate factorial of given number.
+- Floor():this function give floor value of number.
+- Ceil():this function will give ceil value of number.
