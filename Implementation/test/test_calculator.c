@@ -73,6 +73,7 @@ int main() {
   CU_add_test(suite, "ceilvalue", test_ceilvalue);
   CU_add_test(suite, "floor_func", test_floor_func);
   CU_add_test(suite, "fabsvalue", test_fabsvalue);
+  CU_add_test(suite, "power", test_power);
 
 
 /* Note: Do not edit START*/
@@ -121,6 +122,12 @@ void test_divide(void) {
 
   /* Dummy fail*/
   CU_ASSERT(3 == divide(2, 2));
+}
+
+void test_power(void) {
+  CU_ASSERT(8 == power(2, 3));
+  CU_ASSERT(-8 == power(-2, 3));
+  CU_ASSERT(0.125 == power(2, -3));
 }
 
 void test_cube(void)
