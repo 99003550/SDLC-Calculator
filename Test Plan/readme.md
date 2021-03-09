@@ -3,8 +3,8 @@
 
 | ID   | DESCRIPTION                                                         | EXPECTED INPUT      | EXPECTED OUTPUT |
 |------|---------------------------------------------------------------------|---------------------|-----------------|
-| TP1  | To add two float numbers and  display the result on calculator      | 2+2 ,10+20,  3+5+2, -2+4, 4+(-2), (-2)+(-4)           | 4 , 30 , 10 , 2 ,  2, -6            |
-| TP2  | To subtract two float numbers and  display the result on calculator | 5-2  ,20-10, 10-4-1               | 3 ,10,  5              |
+| TP1  | To add two float numbers and  display the result on calculator      | 2+2 ,10+20,  3+5, -2+4, 4+(-2), (-2)+(-4)           | 4 , 30 , 8 , 2 ,  2, -6            |
+| TP2  | To subtract two float numbers and  display the result on calculator | 5-2  ,20-10, 4-(-1)               | 3 ,10,  5              |
 | TP3  | To multiply two float numbers and  display the result on calculator | 2*3, 5 *2 *5            | 6,  50            |
 | TP4  | To divide two float numbers and  display the result on calculator   | 50/2 ,1/0               | 25, invalid              |
 | TP5  | To find square root of a number                                     | Square root(16)     | 4               |
