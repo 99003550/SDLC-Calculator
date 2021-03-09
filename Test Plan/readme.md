@@ -11,8 +11,8 @@
 | TP6  | To find cube root of a number                                       | Cube root(27)       | 3               |
 | TP7  | To find factorial of a number                                       | Fact(5)             | 120             |
 | TP8  | To find power of a number                                           | Power of2^3, -2^3, 2^-3          | 8,  -8,  0.125            |
-| TP9  | To find bitwise-and of a number                                     | 12&25               | 8(Binary)       |
-| TP10 | To find bitwise-or of a number                                      | 12\|25              | 29(Binary)      |
+| TP9  | To find bitwise-and of a number                                     | 12&25, -1&0               | 8(Binary), 0      |
+| TP10 | To find bitwise-or of a number                                      | 12\|25, -1|0             | 29(Binary) ,-1     |
 | TP11 | To find bitwise-xor of a number                                     | 12^25               | 21(Binary)      |
 | TP12 | To find log of a number                                             | Log(10)             | 1               |
 | TP13 | To find log base_10 of a number                                     | Log base 10 of (11) | 1.041           |
