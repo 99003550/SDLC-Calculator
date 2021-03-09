@@ -90,7 +90,11 @@ int main() {
 
 /* Write all the test functions */
 void test_sum(void) {
-  CU_ASSERT(30 == sum(10, 20));
+  CU_ASSERT(4 == sum(2, 2));
+  CU_ASSERT(8 == sum(3, 5));
+  CU_ASSERT(2 == sum(-2, 4));
+  CU_ASSERT(2 == sum(4, -2));
+  CU_ASSERT(-6 == sum(-2, -4));
 
   /* Dummy fail*/
   CU_ASSERT(1500 == sum(750, 7500));
@@ -98,6 +102,8 @@ void test_sum(void) {
 
 void test_subtract(void) {
   CU_ASSERT(2 == subtract(7, 5));
+  CU_ASSERT(10 == subtract(20, 10));
+  CU_ASSERT(5 == subtract(4, -1));
 
   CU_ASSERT(1 == subtract(1000, 900));
 }
