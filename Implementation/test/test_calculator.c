@@ -110,6 +110,8 @@ void test_subtract(void) {
 
 void test_multiply(void) {
   CU_ASSERT(0 == multiply(1, 0));
+  CU_ASSERT(10 == multiply(5, 2));
+  CU_ASSERT(-10 == multiply(5, -2));
 
   /* Dummy fail*/
   CU_ASSERT(2 == multiply(2, 5));
