@@ -23,7 +23,7 @@
 | Vinay H P             |99003545(stepin104955)          | ->Done with the test plans -> Developed low level diagrams -> Built code for Addition and Subtraction operation. -> Test case for the both                                                                                                                                 |         2      |   2            |
 | K.N.S ANUSHA             |99003547(anushakurasala)          |->Done with the test plans -> Developed low level diagram -> built code for sin, cos, tan -> test cases for the operations                                                                                                                                     |   2            |  2             |
 |Shaik Rehana              |99003549(stepin105057)          |->Did unit testing ->Resolved zero error issues ->Resolved Exception Handling Issues ->updated Test plan ->I have did Research Work -> Developed low level Diagrams ->Build code for Bitwise or and Bitwise and -> test cases for the same -> I have did cppcheck and ci workflows.                                                                                                                                     |7               |7               |
-|Midhun M Menon | 99003550 (stepin105160)    | -> Integrated all the work. -> Did Test Plan. -> Developed Low Level diagrams. -> Build the code for multiplication and division.-> Test cases for the same -> Build the makefile and main.c |2 |2|
+|Midhun M Menon | 99003550 (stepin105160)    | -> Integrated all the work. -> Did Test Plan. -> Developed Low Level diagrams. -> Build the code for multiplication and division.-> Test cases for the same -> Build the makefile and main.c |5 |5|
 
 # Challenges overcome and Knlowedge Gained
 
