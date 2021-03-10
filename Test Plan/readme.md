@@ -9,7 +9,7 @@
 | TP4  | To divide two float numbers and  display the result on calculator   | 50/2 ,1/0               | 25, invalid              |
 | TP5  | To find square root of a number                                     | Square root(16)     | 4               |
 | TP6  | To find cube root of a number                                       | Cube root(27)       | 3               |
-| TP7  | To find factorial of a number                                       | Fact(5)             | 120             |
+| TP7  | To find factorial of a number                                       | Fact(5) Fact(-5)             | 120, invalid input             |
 | TP8  | To find power of a number                                           | Power of2^3, -2^3, 2^-3          | 8,  -8,  0.125            |
 | TP9  | To find bitwise-and of a number                                     | 12&25, -1&0               | 8(Binary), 0      |
 | TP10 | To find bitwise-or of a number                                      | 12\|25, -1\|0             | 29(Binary) ,-1     |
