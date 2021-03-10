@@ -47,7 +47,7 @@ int main(void)
 
 
 
-  printf("0:square;1:cube;2:factorial;3:squareroot;4:sine;5:cosine;6:tan_func;7:asine;8:acosine;9:atan_value;10:tanhvalue/n;11:sinhvalue;12:coshvalue;13:exponent;14:sum_upto_n;15:ceilvalue;16:floor_func;17:fabsvalue;18:logarithmicvalue;19:log_base10;20:atan2value;21:sum;22:subtract;23:multiply;24:divide;25:power;26:bit_or;27:bit_and;28:bit_xor\n");
+  printf("0:square\n1:cube\n2:factorial\n3:squareroot\n4:sine\n5:cosine\n6:tan_func\n7:asine\n8:acosine\n9:atan_value\n10:tanhvalue\n11:sinhvalue\n12:coshvalue\n13:exponent\n14:sum_upto_n\n15:ceilvalue\n16:floor_func\n17:fabsvalue\n18:logarithmicvalue\n19:log_base10\n20:atan2value\n21:sum\n22:subtract\n23:multiply\n24:divide\n25:power\n26:bit_or\n27:bit_and\n28:bit_xor\n");
   do {
     printf("Enter number of operation: ");
     scanf("%d", &op);
