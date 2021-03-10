@@ -14,6 +14,15 @@ float cube(float num1)
     }
 float sum(float num1, float num2)
 {
+    if(num1>100000 && num2>100000)
+    {
+        printf("invalid input");
+    }else if(num1 + num2)
+    {
+        printf("invalid input");
+    }
+    else
+    {
   return num1 + num2;
 }
 
