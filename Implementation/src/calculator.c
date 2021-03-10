@@ -34,7 +34,7 @@ float divide(float num1, float num2)
     {
         return -1;
     }
-    else
+    else 
     {
         return num1/num2;
     }
@@ -44,7 +44,11 @@ float factorial(float num1)
         {
         return 1;
        }
-    else
+    else if(num1 < 0)
+    {
+        printf("Invalid Input");
+    }
+ else
     {
      return num1*factorial(num1-1);
     }
